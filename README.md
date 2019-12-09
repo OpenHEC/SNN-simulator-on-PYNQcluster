@@ -13,6 +13,9 @@ PyNN :http://neuralensemble.org/PyNN/
 ## NEST base on GPU  
 Implemention Spiking neural network simulator NEST on multi-GPU and distributed GPU  
 https://github.com/pnquanganh/opencl-nest  
+Nguyen Q A P, Andelfinger P, Cai W, et al. Transitioning Spiking Neural Network Simulators to Heterogeneous Hardware[C]//Proceedings of the 2019 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation. ACM, 2019: 115-126.
+
+## SNN simulator base on FPGA
 Paper:A.Podobas,S.Matsuoka,Luk Wayne.Designing and accelerating spiking neural networks using OpenCL for FPGAs[C].//International   Conference on Field Programmable Technology (ICFPT).Melbourne,VIC, Australia: IEEE,2017.  
 
 ## snn_object_recognition on PYNN-NEST  
