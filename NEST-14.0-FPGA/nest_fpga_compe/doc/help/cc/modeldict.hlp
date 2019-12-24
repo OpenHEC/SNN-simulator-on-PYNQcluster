@@ -1,0 +1,17 @@
+Name: modeldict - dictionary containing all devices and models of NEST
+
+Description:
+
+'modeldict info' shows the contents of the dictionary
+
+
+SeeAlso:
+
+info
+Device
+RecordingDevice
+subnet
+
+Source:
+
+/home/xilinx/nest_fpga_compe/nestkernel/model_manager.h

@@ -1,0 +1,21 @@
+Name: zeros - Return a DoubleVector filled with zeros. 
+ Synapsis: n zeros -> [. 0. 0. ... .]
+
+Author:
+
+Marc-Oliver Gewaltig
+
+
+FirstVersion:
+
+Dec. 4 2012
+
+
+SeeAlso:
+
+ones
+arange
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/mathematica.sli

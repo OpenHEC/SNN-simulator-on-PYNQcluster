@@ -1,0 +1,144 @@
+Name: PrintNetwork - Print network tree in readable form.
+
+Synopsis:
+
+gid depth  PrintNetwork ->	-
+
+
+Description:
+
+This function prints the network structure in a concise tree-like format 
+according to the following rules: 
+	- Each Node is shown on a separate line, showing its model name followed 
+by its in global id in brackets. 
++-[0] Subnet Dim=[1] 
+| 
++- iaf_psc_alpha [1] 
+	- Consecutive Nodes of the same model are summarised in a list. 
+The list shows the model name, the global id of the first node in the 
+sequence, then the number of consecutive nodes, then the global id of 
+the last node in the sequence. 
++-[0] Subnet Dim=[1] 
+| 
++- iaf_psc_alpha [1]..(2)..[2] 
+	- If a node is a subnet, its global id is printed first, followed by the 
+model name or its label (if it is defined). Next, the dimension is shown. 
+If the current recursion level is less than the specified depth, the printout 
+descends to the children of the subnet. 
+After the header, a new line is printed, followed by the list of children 
+at the next indentation level. 
+After the last child, a new line is printed and the printout of the parent 
+subnet is continued. 
+Example: 
+SLI ] /iaf_psc_alpha Create 
+SLI [1] /iaf_cond_alpha 10 Create 
+SLI [2] /dc_generator [2 5 6] LayoutNetwork 
+SLI [3] 0 1 PrintNetwork 
++-[0] root dim=[12] 
+SLI [3] 0 2 PrintNetwork 
++-[0] root dim=[12] 
+| 
++- [1] iaf_psc_alpha 
++- [2]...[11] iaf_cond_alpha 
++- [12] subnet dim=[2 5 6] 
+SLI [3] 0 3 PrintNetwork 
++-[0] root dim=[12] 
+| 
++- [1] iaf_psc_alpha 
++- [2]...[11] iaf_cond_alpha 
++- [12] subnet dim=[2 5 6] 
+| 
++-[1] subnet dim=[5 6] 
++-[2] subnet dim=[5 6] 
+SLI [3] 0 4 PrintNetwork 
++-[0] root dim=[12] 
+| 
++- [1] iaf_psc_alpha 
++- [2]...[11] iaf_cond_alpha 
++- [12] subnet dim=[2 5 6] 
+| 
++-[1] subnet dim=[5 6] 
+|  | 
+|  +-[1] subnet dim=[6] 
+|  +-[2] subnet dim=[6] 
+|  +-[3] subnet dim=[6] 
+|  +-[4] subnet dim=[6] 
+|  +-[5] subnet dim=[6] 
++-[2] subnet dim=[5 6] 
+| 
++-[1] subnet dim=[6] 
++-[2] subnet dim=[6] 
++-[3] subnet dim=[6] 
++-[4] subnet dim=[6] 
++-[5] subnet dim=[6] 
+SLI [3] 0 5 PrintNetwork 
++-[0] root dim=[12] 
+| 
++- [1] iaf_psc_alpha 
++- [2]...[11] iaf_cond_alpha 
++- [12] subnet dim=[2 5 6] 
+| 
++-[1] subnet dim=[5 6] 
+|  | 
+|  +-[1] subnet dim=[6] 
+|  |  | 
+|  |  +- [1]...[6] dc_generator 
+|  | 
+|  +-[2] subnet dim=[6] 
+|  |  | 
+|  |  +- [1]...[6] dc_generator 
+|  | 
+|  +-[3] subnet dim=[6] 
+|  |  | 
+|  |  +- [1]...[6] dc_generator 
+|  | 
+|  +-[4] subnet dim=[6] 
+|  |  | 
+|  |  +- [1]...[6] dc_generator 
+|  | 
+|  +-[5] subnet dim=[6] 
+|	 | 
+|	 +- [1]...[6] dc_generator 
+| 
++-[2] subnet dim=[5 6] 
+| 
++-[1] subnet dim=[6] 
+|  | 
+|  +- [1]...[6] dc_generator 
+| 
++-[2] subnet dim=[6] 
+|  | 
+|  +- [1]...[6] dc_generator 
+| 
++-[3] subnet dim=[6] 
+|  | 
+|  +- [1]...[6] dc_generator 
+| 
++-[4] subnet dim=[6] 
+|  | 
+|  +- [1]...[6] dc_generator 
+| 
++-[5] subnet dim=[6] 
+| 
++- [1]...[6] dc_generator
+
+
+Parameters:
+
+gid		- Global ID of the subnet to start tree printout. 
+depth		- Integer, specifies down to which level the network is printed.
+
+
+Availability:
+
+NEST
+
+
+Author:
+
+Marc-Oliver Gewaltig, Jochen Martin Eppler
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/nestkernel/nestmodule.cpp

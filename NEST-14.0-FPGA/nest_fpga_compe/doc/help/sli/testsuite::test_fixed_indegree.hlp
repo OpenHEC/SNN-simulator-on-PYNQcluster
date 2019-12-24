@@ -1,0 +1,27 @@
+Name: testsuite::test_fixed_indegree - Test correct connection with many targets
+
+Synopsis:
+
+(test_fixed_indegree) run ->	-
+
+
+Description:
+
+test_fixed_indegree.sli checks that all-to-all connections are created 
+correctly if the number of targets exceeds the number of local nodes.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+SeeAlso:
+
+testsuite::test_one_to_one
+testsuite::test_all_to_all
+testsuite::test_pairwise_bernoulli
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/mpitests/test_fixed_indegree.sli

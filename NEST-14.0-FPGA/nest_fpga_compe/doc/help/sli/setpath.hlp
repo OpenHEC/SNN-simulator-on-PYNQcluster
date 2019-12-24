@@ -1,0 +1,10 @@
+Name: setpath - Append string to path array
+
+SeeAlso:
+
+addpath
+path
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/sli-init.sli

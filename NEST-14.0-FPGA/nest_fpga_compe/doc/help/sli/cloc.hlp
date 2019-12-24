@@ -1,0 +1,11 @@
+Name: cloc - Return elapsed interpreter cycles since clic was called.
+
+SeeAlso:
+
+clic
+tic
+toc
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/sli-init.sli

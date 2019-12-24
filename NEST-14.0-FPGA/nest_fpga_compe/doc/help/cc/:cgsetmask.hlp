@@ -1,0 +1,53 @@
+Name: :cgsetmask - Call setMasks() on a ConnectionGenerator
+
+Synopsis:
+
+cg sources targets :cgsetmask ->	-
+
+
+Description:
+
+Set masks for sources and targets on a given ConnectionGenerator 
+cg. This is calling the setMasks() function on cg internally.
+
+
+Parameters:
+
+cg		- ConnectionGenerator 
+sources	- A gidcollection of nodes used as source masks 
+targets	- A gidcollection of nodes used as target masks
+
+
+Remarks:
+
+This function is part of the low-level access API for the 
+ConnectionGenerator module. It is mainly used for debugging 
+purposes. Usually, connections are created from a 
+ConnectionGenerator using CGConnect.
+
+
+Availability:
+
+Only if compiled with libneurosim support
+
+
+Author:
+
+Mikael Djurfeldt
+
+
+FirstVersion:
+
+March 2011
+
+
+SeeAlso:
+
+CGParse
+CGParseFile
+CGConnect
+CGSelectImplementation
+
+Source:
+
+/home/xilinx/nest_fpga_compe/conngen/conngenmodule.cpp

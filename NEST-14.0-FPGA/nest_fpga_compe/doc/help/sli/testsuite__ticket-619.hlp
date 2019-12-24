@@ -1,0 +1,20 @@
+Name: testsuite::ticket-619 - Regression test for kernel SetStatus problem
+
+Synopsis:
+
+(ticket-619) run -> NEST exits if test fails
+
+
+Description:
+
+Ensure that kernel set status including /time 0.0 works.
+
+
+Author:
+
+Hans Ekkehard Plesser, 2012-11-29
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/ticket-619.sli

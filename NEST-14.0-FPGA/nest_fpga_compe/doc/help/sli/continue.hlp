@@ -1,0 +1,9 @@
+Name: continue - continue an interrupted  procedure
+
+SeeAlso:
+
+break
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/debug.sli

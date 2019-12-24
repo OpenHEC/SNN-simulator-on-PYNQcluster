@@ -1,0 +1,28 @@
+Synopsis:
+
+(issue-565) run -> NEST exits if test fails
+
+
+Description:
+
+This test makes sure that after deleting a connection in a 
+heterogenenous connector, the resulting connector can still be 
+correctly used to deliver spikes
+
+
+Author:
+
+Jakob Jordan
+
+
+FirstVersion:
+
+December 2016
+
+
+SeeAlso:
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/issue-596.sli

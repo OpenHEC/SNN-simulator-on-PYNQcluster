@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: spin_detector</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: spin_detector</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Name:</b><pre>spin_detector - Device for detecting binary states in neurons.</pre>
+<b>Description: </b>
+<pre> <br/>  The spin_detector is a recording device. It is used to decode and  <br/>  record binary states from spiking activity from a single neuron, or  <br/>  from multiple neurons at once. A single spike signals the 0 state, two  <br/>  spikes at the same time signal the 1 state. If a neuron is in the 0 or  <br/>  1 state and emits the spiking activity corresponding to the same  <br/>  state, the same state is recorded again.  Therefore, it is not only  <br/>  the transitions that are recorded. Data is recorded in memory or to  <br/>  file as for all RecordingDevices. By default, GID, time, and binary  <br/>  state (0 or 1) for each decoded state is recorded. The state can be  <br/>  accessed from ['events']['weight'].  <br/>   <br/>  The spin_detector can also record binary state times with full  <br/>  precision from neurons emitting precisely timed spikes. Set  <br/>  /precise_times to true to achieve this. If there are precise models  <br/>  and /precise_times is not set, it will be set to True at the start of  <br/>  the simulation and /precision will be increased to 15 from its default  <br/>  value of 3.  <br/>   <br/>  Any node from which binary states are to be recorded, must be  <br/>  connected to the spin_detector using the Connect command. Any  <br/>  connection weight and delay will be ignored for that connection.  <br/>   <br/>  Simulations progress in cycles defined by the minimum delay. During  <br/>  each cycle, the spin_detector records (stores in memory or writes to  <br/>  screen/file) the states during the previous cycle. As a consequence,  <br/>  any state information that was decoded during the cycle immediately  <br/>  preceding the end of the simulation time will not be recorded. Setting  <br/>  the /stop parameter to at the latest one min_delay period before the  <br/>  end of the simulation time ensures that all binary states desired to  <br/>  be recorded, are recorded.  <br/>   <br/>  states are not necessarily written to file in chronological order.  <br/>   <br/>  
+</pre>
+<b>Receives: </b>
+<pre>SpikeEvent  <br/>   <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/spike_detector.html">spike_detector</a></li>
+    <li><a href="../cc/Device.html">Device</a></li>
+    <li><a href="../cc/RecordingDevice.html">RecordingDevice</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/models/spin_detector.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

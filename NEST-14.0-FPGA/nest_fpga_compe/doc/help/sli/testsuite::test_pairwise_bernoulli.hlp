@@ -1,0 +1,27 @@
+Name: testsuite::test_pairwise_bernoulli - Test correct connection with many targets
+
+Synopsis:
+
+(test_pairwise_bernoulli) run ->	-
+
+
+Description:
+
+test_pairwise_bernoulli.sli checks that all-to-all connections are created 
+correctly if the number of targets exceeds the number of local nodes.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+SeeAlso:
+
+testsuite::test_one_to_one
+testsuite::all_to_all
+testsuite::test_fixed_indegree
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/mpitests/test_pairwise_bernoulli.sli

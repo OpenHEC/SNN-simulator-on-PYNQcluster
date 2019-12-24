@@ -1,0 +1,1337 @@
+abort															Abort all NEST processes gracefully. 
+abs																absolute value 
+abs_d															absolute value of double 
+abs_i															absolute value of integer 
+ac_generator													provides AC input current
+acos															Calculate the arc cosine of double number. 
+add																add two numbers or vectors
+addpath															add a path to SLISearchPath
+addtotrie														Add a function variant to a trie-object
+aeif_cond_alpha													Conductance based exponential integrate-and-fire neuron 
+aeif_cond_alpha_multisynapse									Conductance based adaptive exponential 
+aeif_cond_alpha_RK5												Conductance based exponential integrate-and-fire 
+aeif_cond_beta_multisynapse										Conductance based adaptive exponential 
+aeif_cond_exp													Conductance based exponential integrate-and-fire neuron 
+aeif_psc_alpha													Current-based exponential integrate-and-fire neuron 
+aeif_psc_exp													Current-based exponential integrate-and-fire neuron 
+allocations														Return the number of array reallocations.
+amat2_psc_exp													Non-resetting leaky integrate-and-fire neuron model 
+and																logical and operator.
+append															Append an object to a string or array.
+AppendTo														Append an object to a container
+Apply															calls a function with the elements of an array as arguments
+apropos															Search the command index for a regular expression.
+arange															Return a Int/DoubleVector filled with a range of numbers. 
+area															Return array of indices defining a 2d subarea of a 2d array.
+area2															Return array of indices defining a 2d subarea of a 2d array.
+array															construct array with n zeros (PS)
+arraylib::EdgeClip												Clip 2-d array indices at array edges
+arraylib::EdgeTruncate											Truncate 2-d array indices at array edges
+arraylib::EdgeWrap												Wrap 2-d array indices around edges (toriodal)
+arraylib::GaborPatch											Return a two-dimensional array with Gabor function.
+arraylib::GaussPatch											Return a two-dimensional array with Gauss function.
+arraylib::getdeep												get an element from a nested container (array, dict, ...).
+arraylib::IndexWrap												project a cyclic index value onto interval [0,N). 
+arraylib::Mean													Return mean of the elements in array.
+arraylib::Product												Return product of the elements in array.
+arraylib::Reform												Reform the dimensions of a hyperrectengular array
+arraylib::SDev													Return standard deviation of the elements in array.
+arraylib::Sum													Return sum of the elements in array.
+arraylib::Var													Return variance of the elements in array.
+arraylib__EdgeClip												arraylib__EdgeClip
+arraylib__EdgeTruncate											arraylib__EdgeTruncate
+arraylib__EdgeWrap												arraylib__EdgeWrap
+arraylib__GaborPatch											arraylib__GaborPatch
+arraylib__GaussPatch											arraylib__GaussPatch
+arraylib__getdeep												arraylib__getdeep
+arraylib__IndexWrap												arraylib__IndexWrap
+arraylib__Mean													arraylib__Mean
+arraylib__Product												arraylib__Product
+arraylib__Reform												arraylib__Reform
+arraylib__SDev													arraylib__SDev
+arraylib__Sum													arraylib__Sum
+arraylib__Var													arraylib__Var
+arrayload														pushes array elements followed by number of elements
+ArrayQ															returns true if top object is an array
+ArrayShape														reduce a multidimensional array to a desired shape
+arraystore														pops the first n elements of the stack into an array
+asin															Calculate the arc sine of double number. 
+assert															assert that procedure returns true
+available														check if data is available from an istream
+backtrace_off													Disable the stack backtrace on error.
+backtrace_on													enable stack backtrace on error.
+begin															Make a dictionary the current dictionary.
+bernoulli_synapse												Static synapse with stochastic transmission.
+bind															recursively replaces executable operator names by their values.
+break															interrupt the execution of a procedure for inspection
+breakup															Break a string or an array at given Substrings or SubArrays, or to given lengths.
+call															Execute object from a dictionary.
+callback														Function to execute before each input prompt.
+capacity														Returns the capacity of an array.
+case															like if, but test a series of conditions.
+cd																Change working directory
+ceil															Return nearest integer larger than or equal to the argument.
+cerr															Standard error output stream
+CGConnect														Establish connections contained in a ConnectionGenerator
+CGParse															Call ConnectionGenerator::fromXML() and return a 
+CGParseFile														Call ConnectionGenerator::fromXMLFile() and return a 
+CGSelectImplementation											Call 
+ChangeSubnet													change the current working subnet.
+cin																Standard input stream
+Cleanup															cleanup the network after a simulation
+clear															Clear the entire stack.
+cleardict														Clears the contents of a dictionary
+cleardictstack													Pop all non standard dictionaries off the dictionary 
+clic															Start measuring interpreter cycles.
+cloc															Return elapsed interpreter cycles since clic was called.
+clock															returns realtime 
+clonedict														create a copy of a dictionary
+close															close a stream
+closeinput														Close current input file.
+CompareFiles													Compare two files for equality.
+CompileMath														converts traditional math to postfix notation
+Connect															Establish a connection between two nodes or lists of nodes.
+cont_delay_synapse												Synapse type for continuous delays
+cont_delay_synapse_hpc											Variant of cont_delay_synapse with low 
+continue														continue an interrupted  procedure
+copy															Copy the top n stack objects
+CopyFile														Copy a file
+CopyModel														copy a model to a new name, set parameters for copy, if 
+correlation_detector											Device for evaluating cross correlation between 
+correlomatrix_detector											Device for measuring the covariance matrix 
+correlospinmatrix_detector										Device for measuring the covariance matrix 
+cos																Calculate the cosine of double number. 
+count															Count the number of objects on the stack.
+countdictstack													return number of dictionaries on the dictionary stack.
+counttomark														count number of objects on the stack from top to marker
+cout															Standard output stream
+Create															create a number of equal nodes in the current subnet
+CreateRDV														Create a new random deviate generator
+CreateRNG														Create a new random generator 
+cst																Convert string to array of tokens
+ctermid															Return the path to the controlling terminal of the process.
+currentdict														return topmost dictionary of the dictionary stack
+currentname														returns the most recently resolved name
+CurrentSubnet													return the gid of the current network node.
+cv1d															convert 2-dimensional coordinates to 1-dim index
+cv2d															convert 1-dimensional index to 2-dim coordinate
+cv_dv															convert array of integers to a DoubleVector.
+cv_iv															convert array of integers to an IntVector.
+cva																Converts argument to an array
+cva_d															Convert dictionary to array
+cva_t															Converts a type trie to an equivalent array
+cvd																Convert integer/string to double
+cvd_s															convert string to double
+cvdict															Convert argument to a dictionary 
+cvgidcollection													Create a container of global ids.
+cvi																Convert double/string to integer
+cvi_s															convert string to integer
+cvlit															Convert name/string/procedure to literal/array
+cvn																Convert literal/string to name
+cvo																Label a dictionary for usage as an object in oo-programming 
+cvs																Convert object to string
+cvs_f															Formatted conversion of double to string
+cvt_a															Converts an array to the equivalent type trie. 
+cvx																convert array/string to procedure
+cycles															return the number of elapsed interpreter cycles
+CyclicValue														project a cyclic value onto it's norm interval (e.g. angle on [0,360))
+DataConnect														Connect many neurons from data.
+DataConnect_a													Connect many neurons from a list of synapse status 
+DataConnect_i_D_s												Connect many neurons from data.
+dc_generator													provides DC input current
+debug															execute an object in debug mode.
+debug.sli														Debugging support for sli
+debugoff														Stop SLI level debugging mode.
+debugon															Start SLI level debugger.
+def																define a variable or function
+DeleteFile														Delete a file
+Device															General properties of devices.
+dexp															computes an integer power of 2 and returns the result as double
+dict															Create new, empty dictionary
+DictQ															returns true if top object is a dictionary 
+dictstack														return current dictionary stack as array
+diffusion_connection											Synapse type for instantaneous rate connections 
+Dimensions														determine dimenstions of a (hyper-rectangular) SLI array
+Directory														Return current working directory
+dirname															strip last component from file name
+div																divide two numbers or vectors (point-wise)
+Dot																product of vectors, matrices, and tensors
+Dot1D															Compute the inner product of two vectors.
+DoubleQ															returns true if top object is a double
+drand															Generate a random double number.
+Drop															remove element sequences from an array
+dup																Duplicate the object which is on top of the stack
+dup2															Duplicate a filestream's file descriptor onto another's
+E																Value of the Euler constant E=2.718... 
+edit															Open a file in an external editor
+elementstates													dictionary with symbolic element state tag
+empty															Tests if a string or array is empty.
+end																Close the current (topmost) dictionary.
+endl															line break
+endusing														Close the scope of a 'using' context.
+environment														return dictionary of environment variables
+eof																check eof status of a stream
+eq																Test two objects for equality
+eq_dv															tests for content equality between vectors of doubles
+eq_iv															tests for content equality between vectors of integers
+erase															Deletes a subsequece of a string or array.
+Erf																error function
+Erfc															complementary error function
+errordict														pushes error dictionary on operand stack
+eval															evaluate a string of SLI code
+EvaluateLiteralInfixes											Evaluates an array of infix expressions
+exch															Exchange the order of the first two stack objects.
+exec															execute an object
+ExecFunction													immediately execute a pure function with named arguments
+ExecMath														execute a math expression.
+execstack														Return the contents of the execution stack as array.
+executive														Start interactive interpreter session.
+exit															exit a loop construct
+exithook														Procedure executed if the executive mode is left.
+exp																Calculate the exponential of double number 
+Export															save in a foreign file format
+file															opens file for reading or writing
+FileNames														return contents of current working directory
+FindRoot														numerically find a root in an interval
+FiniteQ															returns true if top object is finite number
+First															Return the first element of an array or string.
+FixedPoint														applies a procedure repeatedly until the result is an invariant
+Flatten															flatten out a nested list
+floor															Return nearest integer smaller than or equal to the argument.
+flush															Force the buffer of a stream to be flushed.
+Fold															result of repeatedly applying a function with two arguments
+FoldList														repeatedly apply a function with two parameters
+for																execute a procedure for a sequence of numbers
+forall															Call a procedure for each element of a list/string/dictionary
+forallindexed													Call a procedure for each element of a list/string
+fork															create a child process of SLI
+FractionalPart													Return fractional part of the argument.
+frexp															Decomposes its argument into an exponent of 2 and a factor
+Function														creates pure function with named arguments
+gabor_															Return 2D array with Gabor patch.
+gamma_sup_generator												simulate the superimposed spike train of a 
+Gammainc														incomplete gamma function
+gap_junction													Synapse type for gap-junction connections.
+gauss2d_														Return 2D array with Gauss patch.
+GaussDiskConv													Convolution of a Gaussian with an excentric disk 
+geq																Test if one object is greater or equal than another object
+get																retrieve element indexed Object of a container
+get_d															look a name up in a dictionary
+getc															Read single character from input stream.
+GetConnections													Retrieve connections between nodes
+GetDefaults														Return the default values for a node or synapse model.
+getenv															evaluates if a string is an evironment variable
+GetGlobalChildren												Return IDs of all immediate child nodes of a subnet 
+GetGlobalLeaves													Return IDs of all leaves of a subnet that fulfill the 
+GetGlobalNodes													Return IDs of all nodes of a subnet that fulfill the 
+GetGlobalNodesInfo												Return GIDs, VPs and Parent GIDs of all nodes of 
+GetGlobalRNG													return global random number generator
+getinterval														Return a subsequence of a string or array.
+getline															Read a newline terminated string from an input stream.
+GetLocalChildren												Return IDs of all immediate local child nodes of a subnet 
+GetLocalLeaves													Return IDs of all local leaves of a subnet that fulfill the 
+GetLocalNodes													Return IDs of all local nodes of a subnet that fulfill the 
+GetMax															get maximal element
+GetMin															get minimal element
+GetNetwork														Return a nested list with the IDs of nodes in a multi-dimensional subnet. 
+GetOption														get the value of a procedure option
+GetOptions														Get all options for a given name
+getPGRP															Get process group ID of the current process
+getPID															Get ID of the current process
+getPPID															Get parent ID of the current process
+gets															Read white space terminated string from stream
+GetStatus														return the property dictionary of a node, connection, 
+GetStatus_dict													Return status of a dictionary used as an object in oo-programming 
+GetStatus_v														return the property dictionary of a random deviate generator 
+GetSynapseStatus												Return synapse status information
+GetVpRNG														return random number generator associated to virtual process 
+gif_cond_exp													Conductance-based generalized integrate-and-fire neuron 
+gif_cond_exp_multisynapse										Conductance-based generalized 
+gif_psc_exp														Current-based generalized integrate-and-fire neuron 
+gif_psc_exp_multisynapse										Current-based generalized 
+ginzburg_neuron													Binary stochastic neuron with sigmoidal activation 
+GNUaddhistory													Add a string to the readline-history
+GNUreadline														Read and edit a line from standard input
+good															check good status of a stream
+grep															extract lines matching a regular expression pattern
+growth_curve_gaussian											Gaussian version of a growth curve
+growth_curve_linear												Linear version of a growth curve
+growth_curve_sigmoid											Sigmoid version of a growth curve
+growthcurvedict													growth curves for Model of Structural Plasticity
+gt																Test if one object is greater than another object
+handleerror														Default error handler
+HasDifferentMemberQ												checks if array contains different element(s)
+help															prints help text for a given command
+helpdesk														Display on-line help in external browser
+helpindex														displays a list of all commands
+hh_cond_exp_traub												Hodgin Huxley based model, Traub modified.
+hh_psc_alpha													Hodgkin Huxley neuron model.
+hh_psc_alpha_gap												Hodgkin Huxley neuron model with gap-junction support.
+ht_neuron														Neuron model after Hill & Tononi (2005).
+ht_synapse														Synapse with depression after Hill & Tononi (2005).
+ht_synapse_hpc													Variant of ht_synapse with low memory consumption.
+Hz																Specification in Hz (for readability)
+iaf_chs_2007													Spike-response model used in Carandini et al 2007.
+iaf_chxk_2008													Conductance based leaky integrate-and-fire neuron model 
+iaf_cond_alpha													Simple conductance based leaky integrate-and-fire neuron 
+iaf_cond_alpha_mc												PROTOTYPE Multi-compartment conductance-based leaky 
+iaf_cond_exp													Simple conductance based leaky integrate-and-fire neuron 
+iaf_cond_exp_sfa_rr												Simple conductance based leaky integrate-and-fire 
+iaf_neuron														Leaky integrate-and-fire neuron model.
+iaf_psc_alpha													Leaky integrate-and-fire neuron model.
+iaf_psc_alpha_canon												Leaky integrate-and-fire neuron 
+iaf_psc_alpha_multisynapse										Leaky integrate-and-fire neuron model with 
+iaf_psc_alpha_presc												Leaky integrate-and-fire neuron 
+iaf_psc_delta													Leaky integrate-and-fire neuron model.
+iaf_psc_delta_canon												Leaky integrate-and-fire neuron model.
+iaf_psc_exp														Leaky integrate-and-fire neuron model with exponential 
+iaf_psc_exp_multisynapse										Leaky integrate-and-fire neuron model with 
+iaf_psc_exp_ps													Leaky integrate-and-fire neuron model with exponential 
+iaf_tum_2000													Leaky integrate-and-fire neuron model with exponential 
+iclear															Clear the state-flags of input stream.
+ieof															Check the "eof"-flag of an input stream.
+if																conditionaly execute a procedure
+ifail															Check the "fail"-flag of an input stream.
+ifelse															conditionaly execute a procedure
+ifstream														Open file for reading.
+ignore															ignore any waiting data on an istream
+igood															check the "good"-flag of a stream.
+in_avail														Return the number of available in an input stream's 
+index															Copy object at stack level n
+info															Display the contents of a dictionary
+info_ds															print contents of all dictionaries on the dicitonary stack to 
+initialize_module												Initialize module by executing commandstring
+Inline															Replace names in a procedure with their definitions.
+insert															Insert all elements of one container in another container.
+insertelement													insert an element to a container at a specific position
+inspect															inspect an object
+Install															Load a dynamic module to extend the functionality.
+IntegerPart														Return integer part of the argument.
+IntegerQ														returns true if top object is an integer (int)
+inv																compute 1/x 
+irand															Generate a random positive integer number.
+iround															Round and convert double to the nearest integer
+is_mpi															flag in statusdict indicating whether interpreter was compiled with MPI
+is_threaded														returns true if NEST/SLI was compiled with thread support
+is_threaded_with_openmp											returns true if NEST/SLI was compiled with OpenMP support
+isatty															Determine if a stream is connected to a terminal.
+izhikevich														Izhikevich neuron model
+join															Join two strings or arrays.
+joinpath														Join filename and path strings, adding the slash.
+JoinTo															Join an object to a container
+kernel															Global properties of the simulation kernel.
+keys															Return array of keys in a dictionary
+kill															send a signal to another process
+known															check whether a name is defined in a dictionary or object
+LambertW														simple iteration implementing the Lambert-W function
+LambertW0														principal branch of the Lambert-W function
+LambertWm1														non-principal branch of the Lambert-W function
+Last															Return the last element of an array or string
+LayoutArray														build a multidimensional array
+LayoutNetwork													Create a multidimensional network.
+ldexp															computes the product of integer power of 2 and a factor
+length															counts elements of a container object
+length_a														counts elements of an array
+length_d														counts elements of a dictionary
+length_lp														counts elements of a literal procedure
+length_p														counts elements of a procedure
+length_s														counts elements of a string
+leq																Test if one object is less or equal than another object
+license															Display the NEST license.
+lin_rate														Linear rate model
+LiteralQ														returns true if top object is a literal
+ln																Calculate natural logarithm of double number. 
+load															Search for a key in each dictionary on the dictionary stack.
+LocateFileNames													Look up complete pathnames of given file in given search path.
+log																Calculate decadic logarithm of double number. 
+lookup															Search for a key in each dictionay on the dictionary stack.
+loop															repeatedly execute a procedure
+ls																print contents of current working directory
+lt																Test if one object is less than another object
+MakeDirectory													Create a new directory
+Map																Apply a procedure to each element of a list or string
+MapAt															applies a function to some of the elements of its argument
+MapIndexed														Apply a function  to each element of a list/string
+MapThread														apply a procedure to corresponding elements of n arrays
+mark															puts a mark on the stack
+mat2_psc_exp													Non-resetting leaky integrate-and-fire neuron model with 
+MathematicaToSliIndex											Convert Mathematica-like indices to SLI indices
+mathexecutive													start interactive math session
+MatrixQ															Test whether a nested array i a matrix
+Max																returns the largest element of an array
+max																return the greater of two values
+mcculloch_pitts_neuron											Binary deterministic neuron with Heaviside 
+Mean															returns the mean of the elements of an array
+MemberQ															checks if array contains a specific element
+memory_thisjob													report virtual memory size for current NEST process
+memory_thisjob_bg												Reports memory usage on Blue Gene/P/Q systems
+memory_thisjob_darwin											Reports memory usage on Darwin/Apple systems
+MemoryInfo														Report current memory usage.
+MergeDictionary													Merge all definitions of a dictionary with the current dicitonary.
+MergeLists														merges sorted lists
+message															Display an information message
+Min																returns the smallest element of an array
+min																return the smaller of two values
+mip_generator													create spike trains as described by the MIP model.
+mkfifo															Create a FIFO special file (named pipe)
+mod																compute the modulo of two integer numbers.
+modeldict														dictionary containing all devices and models of NEST
+modf															Decomposes its argument into fractional and integral part
+Most															Remove the last element of an array or string and return the rest.
+MoveDirectory													Rename a directory
+MoveFile														Rename a file
+ms																Specification in ms (for readability)
+ms2hms															Convert milliseconds to an array  [h min sec].
+mul																multiply two numbers or vectors (point-wise)
+multimeter														Device to record analog data from neurons.
+music_cont_in_proxy												A device which receives continuous data from MUSIC.
+music_cont_out_proxy											A device which sends continuous data from NEST to 
+music_event_in_proxy											A device which receives spikes from MUSIC.
+music_event_out_proxy											Device to forward spikes to remote applications 
+music_message_in_proxy											A device which receives message strings from 
+mV																Specification in mV (for readability)
+namespace														Open a namespace
+neg																reverse sign of value 
+neg_d															reverse sign of double value 
+neg_i															reverse sign of integer value 
+neq																Test two objects for inequality
+Nest															apply a function n times
+nest_indirect													Returns a nest call as a string able to spawn distributed simulations 
+nest_serial														Returns a non-distributed call of nest as a string 
+NestList														gives a list of the results of applying f to x 0 through n times.
+nestrc															Personal interpreter initialization file
+Node															General properties of all nodes.
+noise_generator													Device to generate Gaussian white noise current.
+noop															no operation function
+not																logical not operator.
+npop															Pop n object off the stack
+nS																Specification in nS (for readability)
+NumberQ															returns true if top object is a number (int or double)
+NumProcesses													Return the number of MPI processes.
+oclear															Clear the state-flags of an output stream.
+oeof															Check the "eof"-flag of an output stream.
+ofsopen															Open an existing file for appending or writing.
+ofstream														Open a file stream for writing.
+ogood															Check the "good"-flag of an output stream.
+oldgetline														"old", ignorant version of getline
+ones															Return a DoubleVector filled with ones. 
+operandstack													Return the contents of the stack as array.
+Options															Define a new set of options for a given name.
+OptionsDictionary												Dictionary for global options
+or																logical or operator.
+osstream														Create a string-stream object.
+ostrstream														Create a string-stream object.
+OuterProduct													outer product
+over															Copy object at stack level 1
+pA																Specification in pA (for readability)
+page															Conveniently display contents of a long file
+pageoutput														Display the output of a procedure through "page".
+parrot_neuron													Neuron that repeats incoming spikes.
+parrot_neuron_ps												Neuron that repeats incoming spikes handling 
+parsestdin														Read and execute tokens from standard input
+Part															returns a sub-array of an array
+Partition														Partition list into n element pieces
+path															Return current search path as array
+pclocks															returns POSIX clocks for real, user, system time 
+pclockspersec													POSIX clock ticks per second
+pcvs															Convert object to string (long version)
+pF																Specification in pF (for readability)
+pgetrusage														Get resource consumption information 
+Pi																Value of the constant Pi= 3.1415... 
+pick															copy element from stack level n
+pipe															Open up a pipe
+Plus															represents/computes sum of terms
+poisson_generator												simulate neuron firing with Poisson processes 
+poisson_generator_ps											simulate neuron firing with Poisson processes 
+pop																Pop the top object off the stack
+pow																raise a number to a power
+pp_pop_psc_delta												Population of point process neurons with leaky 
+pp_psc_delta													Point process neuron with leaky integration of 
+ppage															print a file to cout in chunks of 20 lines.
+ppd_sup_generator												simulate the superimposed spike train of a population 
+pprint															pretty print: Print object to a stream
+Prepare															prepare the network for a simulation
+prepend															Attach an object to the front of an array or string.
+print															Print object to a stream
+print_error														print an error based on the errordict
+PrintNetwork													Print network tree in readable form.
+ProcessorName													Returns a unique specifier for the actual node.
+proxynode														Proxy to provide Nodes on remote machines
+PseudoRecordingDevice											Common properties of all pseudo-recording 
+pstack															Display operand stack in syntax form.
+ptimes															returns real, user, and system time 
+pulsepacket_generator											Generate sequence of Gaussian pulse packets.
+put																put indexed object into container
+put_d															Add an entry to a dictionary
+putinterval														replace sections of an array/string
+pwd																Print working directory
+quantal_stp_synapse												Probabilistic synapse model with short term 
+quantal_stp_synapse_hpc											Variant of quantal_stp_synapse with low 
+quit															leave the SLI interpreter, optionally return exit code
+raiseagain														re-raise the last error 
+raiseerror														raise an error to the system
+Random															Returns a  random number.
+RandomArray														Returns array with random numbers.
+RandomSubset													random subset of an array without repetitions
+Range															Generate array with range of numbers 
+Rank															Return the MPI rank of the process.
+rate_connection_delayed											Synapse type for rate connections with delay.
+rate_connection_instantaneous									Synapse type for instantaneous rate 
+rdevdict														dictionary with random deviate generator types
+rdevdict::*_clipped												clipped random deviate generators.
+rdevdict::binomial												binomial random deviate generator
+rdevdict::exponential											exponential random deviate generator
+rdevdict::gamma													gamma random deviate generator
+rdevdict::gsl_binomial											GSL binomial random deviate generator
+rdevdict::lognormal												lognormal random deviate generator
+rdevdict::normal												normal random deviate generator
+rdevdict::poisson												poisson random deviate generator
+rdevdict::uniform												uniform random deviate generator
+rdevdict::uniform_int											uniform integer random deviate generator
+rdevdict____clipped												rdevdict____clipped
+rdevdict__binomial												rdevdict__binomial
+rdevdict__exponential											rdevdict__exponential
+rdevdict__gamma													rdevdict__gamma
+rdevdict__gsl_binomial											rdevdict__gsl_binomial
+rdevdict__lognormal												rdevdict__lognormal
+rdevdict__normal												rdevdict__normal
+rdevdict__poisson												rdevdict__poisson
+rdevdict__uniform												rdevdict__uniform
+rdevdict__uniform_int											rdevdict__uniform_int
+Read															read an object of a certain type from a stream
+ReadDouble														Read a double number from an input stream.
+ReadInt															Read an integer number from an input stream.
+readline														read and edit a line from standard input
+ReadList														read a list of specified format from a stream
+ReadModes														dictionary with type specifiers for read functions
+readPGM															read in grey-level image in PGM Format. 
+ReadWord														read white space terminated string from stream
+realtime														returns realtime 
+RecordingDevice													Common properties of all recording devices.
+references														Returns the number of references to a reference counted object.
+regcomp															Create a regular expression
+regex_find														Check if a regex is included in a string or stream
+regex_find_r													Check if a regex is included in a string
+regex_find_rf													Check if a regex is included in a stream
+regex_find_s													Check if a regex is included in a string
+regex_find_sf													Check if a regex is included in a stream
+regex_replace													replace all occurences of a regex
+regexdict														dictionary with flags and codes for regular expressions
+regexec															compare string and regular expression
+RemoveDirectory													Delete a directory
+removeguard														removes the limit on the number of interpreter cycles 
+repeat															execute a procedure n times
+repeatany														Place any object n times on stack.
+replace															Replace a section of a string or array by a new sequence.
+ReplaceOccurrences												replace the occurences of a key in a container 
+ReplacePart														replaces particular elements of an array
+reserve															Prepare an array or string to hold a given number of elements.
+reset															Reset the SLI interpreter
+ResetKernel														Put the simulation kernel back to its initial state.
+ResetNetwork													Reset the dynamic state of the network.
+ResetOptions													Reset all options of a command to their default values.
+Rest															Remove the first element of an array or string and return 
+restore															restore interpreter state from state dictionary 
+RestoreDictionary												Read a dictionary definition from a file.
+restoreestack													Restore the execution stack from an array.
+RestoreModels													Restore saved models from an array of status dictionaries.
+RestoreOptions													Restore the temporaryly saved options of a command
+restoreostack													Restore the stack from an array.
+resume															Resume interrupted SLI program after a system signal.
+reverse															Reverse a string or array.
+rngdict															dictionary with random generator types
+roll															Roll a portion n stack levels k times
+rolld															Roll the three top stack elements downwards
+rollu															Roll the three top stack elements upwards
+rot																Rotate entire stack contents
+round															Round double to the nearest integer
+run																execute a sli file
+Run																simulate n milliseconds
+s																Specification in s (for readability)
+save															save interpreter state in a state dictionary
+SaveDictionary													Save contents of a dictionary to a file.
+SaveModels														Retrieve the state of all models.
+SaveOptions														temporarily save options of a command
+ScanThread														execute a function to corresponding elements of n arrays
+search															Search for a sequence in an array or string.
+searchfile														tries to open a file for reading using one of 
+searchif														check wether a substring is contained within a string
+searchifstream													searches SLI's search path for a file
+seed															Set the seed of a random number generator.
+Select															reduces an array to elements which fulfill a criterion
+Set																Define an association between a name and an object in the current 
+SetAcceptableLatency											set the acceptable latency of a MUSIC input port
+SetDefaults														Set the default values for a node or synapse model.
+SetDirectory													Change working directory
+SetFakeNumProcesses												Set a fake number of MPI processes.
+setguard														limit the number of interpreter cycles 
+setNONBLOCK														Switch between blocking and non-blocking I/O.
+SetNumRecProcesses												Set the number of MPI processes dedicated to 
+SetOptions														Set options for a given name
+setpath															Append string to path array
+setprecision													set precision for decimal place of a stream
+SetStatus														sets the value of properties of a node, connection, random 
+SetStatus_dict													Modify a dictionary used as an object in oo-programming 
+SetStatus_v														modify the properties of a random deviate generator
+SetStructuralPlasticityStatus									Set up parameters for structural 
+SetSynapseStatus												Return synapse status information
+setverbosity													Set verbosity level for message 
+SFWdumpparameters												Dump parameters of a SLIFunctionWrapper routine.
+ShowDefaults													Show the default parameters of a model.
+ShowOptions														Display all options for a given name
+ShowStatus														Show the status dictionary of a network node.
+shpawn															Spawn a UNIX process using a shell and redirect stdin and stdout.
+shrink															Reduce the capacity of an array or string to its minimum.
+siegert_neuron													siegert_neuron
+Sign															returns the sign of its argument
+signaldict														Dictionary containing the machine-dependent signal codes.
+Simulate														simulate n milliseconds
+sin																Calculate the sine of double number. 
+sinusoidal_gamma_generator										Generates sinusoidally modulated gamma 
+sinusoidal_poisson_generator									Generates sinusoidally modulated Poisson 
+size															Returns the size of an array/string.
+sleep															Pauses current process. 
+sleep_i															suspends proces for x seconds 
+sli_neuron														neuron with SLI callback
+SLIFunctionWrapper												Define a SLI function with lots of comfort.
+SliToMathematicaIndex											Convert SLI indices to Mathematica-like indices
+Sort															Sorts a homogeneous array of doubles, ints, or strings.
+spawn															Spawn a UNIX process and redirect stdin and stdout.
+spike_detector													Device for detecting single spikes.
+spike_dilutor													repeats incoming spikes with a certain probability.
+spike_generator													A device which generates spikes from an array with 
+spikes															Specification in spikes (for readability)
+spin_detector													Device for detecting binary states in neurons.
+Split															splits array into subarrays of sequences of identical elements
+spoon															execute a parallel SLI-process
+sqr																Compute the square of a number.
+sqrt															compute the square root of a non-negative number
+stack															Display operand stack
+StandardDeviation												returns the standard deviation of the elements of an array
+start															interpreter start symbol
+static_synapse													Synapse type for static connections.
+static_synapse_hom_w											Synapse type for static connections with 
+static_synapse_hom_w_hpc										Variant of static_synapse_hom_w with low 
+static_synapse_hpc												Variant of static_synapse with low memory 
+statusdict														dictionary with platform dependent status 
+stdp_dopamine_synapse											Synapse type for dopamine-modulated 
+stdp_dopamine_synapse_hpc										Variant of stdp_dopamine_synapse with low 
+stdp_facetshw_synapse_hom										Synapse type for spike-timing dependent 
+stdp_facetshw_synapse_hom_hpc									Variant of stdp_facetshw_synapse_hom 
+stdp_pl_synapse_hom												Synapse type for spike-timing dependent 
+stdp_pl_synapse_hom_hpc											Variant of stdp_pl_synapse_hom with low 
+stdp_synapse													Synapse type for spike-timing dependent 
+stdp_synapse_hom												Synapse type for spike-timing dependent 
+stdp_synapse_hom_hpc											Variant of quantal_stp_synapse with low memory 
+stdp_synapse_hpc												Variant of stdp_synapse with low memory 
+stdp_triplet_synapse											Synapse type with spike-timing dependent 
+stdp_triplet_synapse_hpc										Variant of stdp_triplet_synapse with low 
+step_current_generator											provides a piecewise constant DC input current
+StimulatingDevice												General properties of stimulating devices.
+stop															raise a stop signal
+stopped															returns true if execution was stopped by stop
+str																Retrieve a string from a string-stream.
+StringQ															returns true if top object is a string 
+sub																subtract two numbers or vectors
+subnet															Root node for subnetworks.
+SubsetQ															Test if one dictinary is a subset of another
+switch															finish a case ... switch structure
+switchdefault													finish a case ... switchdefault structure
+symbol															read a symbol from a string
+symbol_s														read a symbol from a string 
+synapsedict														Dictionary containing all synapse models.
+synaptic_element												Contact point element for the dynamic creation 
+SyncProcesses													Synchronize all MPI processes.
+sysexec															Transfer control to a UNIX-command
+system															execute a UNIX command in a parallel process.
+systemtime														returns system time for current process 
+Table															Generate an array according to a given function 
+Take															extract element sequences from a container
+tanh_rate														rate model with hyperbolic tangent non-linearity
+taskset															Binds a process to a processor.
+taskset_thisjob													Binds the current process to a processor.
+TensorRank														Determine the level to which an array is a full vector
+test_tsodyks_depressing											sli script for overall test of tsodyks synapse models 
+test_tsodyks_facilitating										sli script for overall test of tsodyks synapse models 
+testsuite::crash_distributed_assert_or_die						self test of distributed_assert_or_die
+testsuite::crash_distributed_collect_assert_or_die				self test of distributed_collect_assert_or_die
+testsuite::crash_distributed_invariant_assert_or_die			self test of distributed_invariant_assert_or_die
+testsuite::crash_distributed_pass_or_die						self test of distributed_pass_or_die
+testsuite::crash_distributed_process_invariant_collect_assert_or_die	self test of distributed_invariant_collect_assert_or_die
+testsuite::crash_distributed_process_invariant_events_assert_or_die	self test of distributed_invariant_events_assert_or_die
+testsuite::crash_distributed_rank_invariant_collect_assert_or_die	self test of distributed_rank_invariant_collect_assert_or_die
+testsuite::fail_distributed_assert_or_die						self test of distributed_assert_or_die
+testsuite::fail_distributed_collect_assert_or_die				self test of distributed_collect_assert_or_die
+testsuite::fail_distributed_invariant_assert_or_die				self test of distributed_invariant_assert_or_die
+testsuite::fail_distributed_pass_or_die							self test of distributed_pass_or_die
+testsuite::fail_distributed_process_invariant_collect_assert_or_die	self test of distributed_invariant_collect_assert_or_die
+testsuite::fail_distributed_process_invariant_events_assert_or_die	self test of distributed_invariant_events_assert_or_die
+testsuite::fail_distributed_rank_invariant_collect_assert_or_die	self test of distributed_rank_invariant_collect_assert_or_die
+testsuite::issue-105											Ensure that min_delay and max_delay are set correctly
+testsuite::issue-264											Ensure error is raised on times incommensurate with resolution
+testsuite::issue-281											Check that ConnectLayers works MPI-parallel for fixed fan-out
+testsuite::issue-311											Ensure NEST behaves well after exception during update
+testsuite::issue-327											Ensure that spike_generator handles large precise times
+testsuite::issue-351											Ensure Connect raises exception if connecting to device with unusable rule
+testsuite::issue-368											testsuite::issue-368
+testsuite::issue-410											Ensure thread safety of volume transmitter
+testsuite::issue-437											Ensure parameter passed in Connect are set
+testsuite::issue-463											Simple failing test for connection with parameter arrays and connection rule fixed_indegree, with more than one virtual process
+testsuite::issue-521											*_hpc connections return local id instead of global id of target neuron 
+testsuite::issue-527											testsuite::issue-527
+testsuite::issue-545											testsuite::issue-545
+testsuite::issue-565											testsuite::issue-565
+testsuite::issue-600											Checks that waveform relaxation works with MPI
+testsuite::issue-665											testsuite::issue-665
+testsuite::issue-707											testsuite::issue-707
+testsuite::issue-708											testsuite::issue-708
+testsuite::issue-735											testsuite::issue-735
+testsuite::issue-737-threads									testsuite::issue-737-threads
+testsuite::issue-737											testsuite::issue-737
+testsuite::issue-740											testsuite::issue-740
+testsuite::issue-832											The test ensures that the marker primary_end 
+testsuite::test_ac_generator									test that ac_generator provides correct current
+testsuite::test_add_freeze_thaw									test that per-thread nodes vectors are updated
+testsuite::test_aeif_cond_alpha_multisynapse					sli script for the aeif multisynapse model
+testsuite::test_aeif_cond_beta_multisynapse						sli script for the aeif multisynapse model with synaptic conductance modeled by a double exponential function
+testsuite::test_all_to_all										Test correct connection with many targets
+testsuite::test_amat2_psc_exp									sli script for overall test of amat2_psc_exp neuron model
+testsuite::test_assert_or_die_b									sli script to test the assert_or_die function (bool variant)
+testsuite::test_assert_or_die_p									sli script to test the assert_or_die function (proceure variant)
+testsuite::test_badhandler										test if SLI returns exit code 126 when an error is handled by a bad user error handler.
+testsuite::test_bernoulli_synapse								test of bernoulli_synapse connection
+testsuite::test_binary											sli script for overall test of binary neuron models
+testsuite::test_common_props_setting							test that common properties can be set as defaults, not else
+testsuite::test_connect											SLI script to test runability of all Connect variants
+testsuite::test_connect_array_all_to_all_mpi					SLI script to test connection with parameter arrays and connection rule all_to_all, with hybrid MPI and thread parallelism
+testsuite::test_connect_array_fixed_indegree_mpi				SLI script to test connection with parameter arrays and connection rule fixed_indegree, with hybrid MPI and thread parallelism
+testsuite::test_connect_array_fixed_outdegree_mpi				SLI script to test connection with parameter arrays and connection rule fixed_outdegree, with hybrid MPI and thread parallelism
+testsuite::test_conngen_interface								Test runability of all CGConnect variants
+testsuite::test_cont_delay_synapse								test of synapse with continuous delay
+testsuite::test_copymodel										sli script to test if CopyModel works as expected
+testsuite::test_corr_det										minimal test of correlation detector
+testsuite::test_corr_matrix_det									minimal test of correlomatrix detector
+testsuite::test_count_connections								Test connection counting for total 
+testsuite::test_crash_or_die									sli script to test the crash_or_die function
+testsuite::test_cva												check if cva function works
+testsuite::test_cvi												check if cvi function works
+testsuite::test_DataConnect										sli script to test if DataConnect works as expected
+testsuite::test_dcgen_versus_I_e								sli script to test if setting I_e and applying a DC generator yields the same results.
+testsuite::test_default_delays_weights							test default delay and weight handling
+testsuite::test_delay_after_res_change							sli script to test delay after the resolution has changed
+testsuite::test_delay_check										sli script to test delay checking
+testsuite::test_delay_exchange									check that delay extrema are exchanged correctly
+testsuite::test_dirname											tests dirname from filesystem.sli for POSIX conformance
+testsuite::test_distributed_assert_or_die						self test of distributed_assert_or_die
+testsuite::test_distributed_collect_assert_or_die				self test of distributed_collect_assert_or_die
+testsuite::test_distributed_invariant_assert_or_die				self test of distributed_invariant_assert_or_die
+testsuite::test_distributed_pass_or_die							self test of distributed_pass_or_die
+testsuite::test_distributed_process_invariant_collect_assert_or_die	self test of distributed_invariant_collect_assert_or_die
+testsuite::test_distributed_process_invariant_events_assert_or_die	self test of distributed_invariant_events_assert_or_die
+testsuite::test_distributed_rank_invariant_collect_assert_or_die	self test of distributed_rank_invariant_collect_assert_or_die
+testsuite::test_DoubleVector_IntVector.sli						test vector operations
+testsuite::test_fail											test if SLI returns exit code 126 when executing a file with unhandled errors.
+testsuite::test_failbutnocrash_or_die_crash						sli script to test the failbutnocrash_or_die_crash function
+testsuite::test_failbutnocrash_or_die_pass						sli script to test the failbutnocrash_or_die_pass function
+testsuite::test_failpass_or_die									sli script to test the passfail_or_die function
+testsuite::test_fast_operators									ensures that internal operators do not check number of arguments
+testsuite::test_fixed_indegree									Test correct connection with many targets
+testsuite::test_gamma_sup_generator								Test parallel generation of trains
+testsuite::test_gap_junction									Ensure that gap_junction connection can only be created between neurons which support them.
+testsuite::test_gap_junctions_mpi								Test gap junction functionality in parallel
+testsuite::test_get_node_fncs									sli script for test of Get(Local/Global)(Nodes/Leaves/Children)
+testsuite::test_GetConnections									sli script to test if GetConnections works as expected
+testsuite::test_getnodes										sli script to test if GetGlobalNodes works as expected
+testsuite::test_getrng_neuron									sli script of assignment of rng to neuron
+testsuite::test_getrng_Vmset									test whether Vm can consistently be set to random value
+testsuite::test_gif_cond_exp									sli script for test of gif_cond_exp with 
+testsuite::test_gif_cond_exp_multisynapse						sli script for test of 
+testsuite::test_gif_psc_exp										sli script for test of gif_psc_exp with 
+testsuite::test_gif_psc_exp_multisynapse						sli script for test of 
+testsuite::test_ginzburg_neuron									Test parallel generation of Poissonian trains
+testsuite::test_global_rng										check whether global rng gives consistent results
+testsuite::test_goodhandler										test if SLI returns exit code 0 when an error is handled by a correct user error handler.
+testsuite::test_gsd												Test global spike detector with hybrid MPI and thread parallelism
+testsuite::test_gsd_distribution								Test global spike detector with pure MPI parallelism
+testsuite::test_gsd_distribution_threaded						Test global spike detector with hybrid MPI and thread parallelism
+testsuite::test_gsd_FixedTotalNumber							Test global spike detector with MPI
+testsuite::test_hh_cond_exp_traub								sli script for overall test of hh_cond_exp_traub model
+testsuite::test_hh_psc_alpha_gap								sli script for overall test of hh_psc_alpha_gap model 
+testsuite::test_hpc_synapse										Basic tests on hpc synapses
+testsuite::test_iaf												sli script for overall test of iaf_neuron model
+testsuite::test_iaf_1to2										sli script for test of iaf_neuron spike interaction
+testsuite::test_iaf_1to2_ex										sli script for test of min_delay
+testsuite::test_iaf_dc											sli script for test of iaf_neuron with external DC current
+testsuite::test_iaf_dc_aligned									sli script for test of iaf_neuron resolution independence
+testsuite::test_iaf_dc_aligned_automatic						sli script for test of iaf_neuron resolution independence
+testsuite::test_iaf_dc_aligned_delay							sli script for test of iaf_neuron resolution independence
+testsuite::test_iaf_dc_aligned_stop								sli script for test of iaf_neuron resolution independence
+testsuite::test_iaf_fudge										sli script to test normalization of PSP for iaf_neuron model
+testsuite::test_iaf_i0											sli script for test of iaf_neuron internal DC current
+testsuite::test_iaf_i0_refractory								sli script for test of iaf_neuron internal DC current
+testsuite::test_iaf_min_delay_create							sli script for testing automatic adjustment of min_delay
+testsuite::test_iaf_min_delay_set								sli script for testing explicit specification of min_delay
+testsuite::test_iaf_min_delay_simblocks							sli script for testing block wise simulation
+testsuite::test_iaf_ps_dc_accuracy								test of accuracy of neuron models subject to DC current
+testsuite::test_iaf_ps_dc_t_accuracy							test of temporal accuracy of iaf_neuron subject to DC current
+testsuite::test_iaf_ps_psp_accuracy								test of iaf_neuron accuracy of PSP
+testsuite::test_iaf_ps_psp_poisson_accuracy						probes interaction of precise poisson generator and neuron model
+testsuite::test_iaf_ps_psp_poisson_generator_accuracy			test precise poisson generator input to neuron model
+testsuite::test_iaf_ps_psp_poisson_spike_accuracy				test  precise poisson spike input to neuron model
+testsuite::test_iaf_psc_alpha_multisynapse						sli script for the multisynapse model
+testsuite::test_iaf_psc_exp										sli script for overall test of iaf_psc_exp model
+testsuite::test_iaf_psc_exp_multisynapse						sli script for the multisynapse model
+testsuite::test_iaf_psp											sli script for test of iaf_neuron spike input
+testsuite::test_iaf_psp_normalized								check if PSP can be normalized
+testsuite::test_iaf_psp_peak									test of closed form expression for peak
+testsuite::test_iaf_ring										sli script for test of iaf_neuron spike interaction 
+testsuite::test_inh_stdp_synapse								basic test of stdp_synapse
+testsuite::test_lambertw										check if lambertw function works
+testsuite::test_lazyhandler										test if SLI returns exit code 0 when an error is handled by a lazy user error handler.
+testsuite::test_Map												check if Map function works
+testsuite::test_MapIndexed										check if MapIndexed function works
+testsuite::test_mat2_psc_exp									sli script for overall test of mat2_psc_exp neuron model
+testsuite::test_max_delay										sli script to test whether max_delay is updated correctly
+testsuite::test_min_delay										sli script to test whether min_delay is updated correctly
+testsuite::test_mini_brunel_ps									Test parallel simulation of small Brunel-style network
+testsuite::test_mip_corrdet										sli script for testing mip_generator and correlation_detector
+testsuite::test_mip_generator									Test parallel generation of trains
+testsuite::test_multimeter										Minimal test for correct multimeter setup
+testsuite::test_multimeter_accu									test support for multimeter accumulation mode
+testsuite::test_multimeter_freeze_thaw							test if multimeter handles frozen nodes properly
+testsuite::test_multimeter_offset								Test if offset attribute works properly
+testsuite::test_multimeter_stepping								test if multimeter returns same values for stepped simulation
+testsuite::test_multimeter_support								test if multimeter support works in neurons
+testsuite::test_multiple_multimeter								test support for multiple multimeters
+testsuite::test_multiple_random_source_stepping					test NEST's behavior when using multiple random sources and different stepping schemes
+testsuite::test_multisynapse_models								test properties of multisynapse models
+testsuite::test_multithreading									sli script for several tests regarding multithreading
+testsuite::test_multithreading_devices							sli script to test data collection across threads
+testsuite::test_noise_generator									Test parallel noise injection
+testsuite::test_one_to_one										Test correct connection with many targets
+testsuite::test_pairwise_bernoulli								Test correct connection with many targets
+testsuite::test_parse_message_line								> selftest for message line parser in unittest
+testsuite::test_pass											test if SLI returns exit code 0 after executing a file.
+testsuite::test_pass_or_die										sli script to test the pass_or_die function
+testsuite::test_passorfailbutnocrash_or_die						sli script to test the crash_or_die function
+testsuite::test_poisson_generator								Test parallel generation of Poissonian trains
+testsuite::test_poisson_generator_campbell_alpha				test if of poisson noise generates correct membrane potential
+testsuite::test_poisson_generator_ps							Test parallel generation of Poissonian trains
+testsuite::test_poisson_ps_intervals							checks coefficient of variation
+testsuite::test_poisson_ps_min_interval							checks that intervals are independent of tic size
+testsuite::test_pp_pop_psc_delta								sli script for test of pp_pop_psc_delta
+testsuite::test_pp_psc_delta									Test parallel generation of Poissonian trains
+testsuite::test_ppd_sup_generator								Test parallel generation of trains
+testsuite::test_psp_amplitude_consistency						test the consistency of PSP amplitudes across models.
+testsuite::test_pulsepacket_generator							Test parallel generation of Poissonian trains
+testsuite::test_random											test use of random number distributions
+testsuite::test_random_binomial									test of binomial random deviates
+testsuite::test_random_clipped									test clipped random number distributions
+testsuite::test_rate_connections								This test ensures that rate connections 
+testsuite::test_rate_neurons_mpi								Test rate model neurons in parallel
+testsuite::test_rdv_discreteness								test discreteness of random distributions
+testsuite::test_rdv_param_setting								test parameter setting on RDVs
+testsuite::test_recorde_close_flush								test {close,flush}_after_simulate flags for recording devices
+testsuite::test_rng_seeds										test if setting and getting of the rng seeds works
+testsuite::test_round											check if round function works
+testsuite::test_set_delay_extrema								sli script to test if min_ and max_delay 
+testsuite::test_set_start_stop_origin							sli script to test if start, stop and origin are set properly
+testsuite::test_set_tics										test whether tics can be configured at run time
+testsuite::test_set_Vm											test if setting V_m work via SetModelStatus and SetStatus
+testsuite::test_sinusoidal_gamma_generator						test basic properties of sinusoidal gamma generator
+testsuite::test_sinusoidal_gamma_generator_1					Test parallel generation of sinusoidally modulate Gammaian trains with single spike train
+testsuite::test_sinusoidal_gamma_generator_2					Test parallel generation of sinusoidally modulate Gammaian trains with individual spike trains
+testsuite::test_sinusoidal_gamma_generator_3					Test parallel generation of sinusoidally modulate Gammaian trains with single spike train
+testsuite::test_sinusoidal_gamma_generator_4					Test parallel generation of sinusoidally modulate Gammaian trains with individual spike trains
+testsuite::test_sinusoidal_poisson_generator					test basic properties of sinusoidal poisson generator
+testsuite::test_sinusoidal_poisson_generator_1					Test parallel generation of sinusoidally modulate Poissonian trains with single spike train
+testsuite::test_sinusoidal_poisson_generator_2					Test parallel generation of sinusoidally modulate Poissonian trains with individual spike trains
+testsuite::test_sinusoidal_poisson_generator_3					Test parallel generation of sinusoidally modulate Poissonian trains with single spike train
+testsuite::test_sinusoidal_poisson_generator_4					Test parallel generation of sinusoidally modulate Poissonian trains with individual spike trains
+testsuite::test_sinusoidal_poisson_generator_5					Test parallel generation of sinusoidally modulate Poissonian trains with single spike train
+testsuite::test_sinusoidal_poisson_generator_6					Test parallel generation of sinusoidally modulate Poissonian trains with individual spike trains
+testsuite::test_sli_neuron										test of sli_neuron
+testsuite::test_sort											sli script to test if sorting works
+testsuite::test_spike_det_reset									test if resetting works on spike_detector
+testsuite::test_spike_detector									sli script to test spike_detector device
+testsuite::test_spike_dilutor									test of spike_dilutor functionality
+testsuite::test_spike_generator									sli script to test spike_generator device
+testsuite::test_spike_poisson_ps								tests if spikes independent of resolution
+testsuite::test_spike_poisson_ps_base2.sli						testsuite::test_spike_poisson_ps_base2.sli
+testsuite::test_spin_detector									test decoding mechanism of binary events by spin_detector
+testsuite::test_stdp_synapse									basic test of stdp_synapse
+testsuite::test_step_current_generator							minimal test of step_current_generator
+testsuite::test_steppedsim										test multiple calls of Simulate
+testsuite::test_stop											test if SLI returns exit code 126 when executing a file with a software interrupt.
+testsuite::test_supports_precise_spikes_flag					Checks that the 
+testsuite::test_symmetric_connections							Tests that the functionality to create 
+testsuite::test_symmetric_connections_mpi						Tests that the functionality to create 
+testsuite::test_syn_hom_w										sli script for test synapse with homogeneous weight and delay.
+testsuite::test_thread_local_ids								test that thread-local ids are set correctly
+testsuite::test_threaded_neuron_device_connections				test for correct creation of neuron-neuron, neuron-device, device-neuron and device-device connections using multiple threads
+testsuite::test_voltmeter_reset									test if resetting works on voltmeter
+testsuite::test_wfr_settings									Tests the possible settings for the waveform relaxation method
+testsuite::ticket-336-mpi										Check that vp-specific RNGs generate proper random numbers
+testsuite::ticket-336-serial									Check that vp-specific RNGs only provided for nodes with proxies
+testsuite::ticket-386											ensure all models supporting multimeter work at minimal interval
+testsuite::ticket-396											Ensure that the number of threads cannot be changed after resolution.
+testsuite::ticket-399											Regression test on failure to set min/max delay
+testsuite::ticket-421											Minimal test against missing variable initializations
+testsuite::ticket-433											Test against receptor_type mishandling in ht_neuron
+testsuite::ticket-451											Guard against infinte loops in Random*Connect
+testsuite::ticket-452											Ensure that precise simulations give identical results whether stepped or run continuously
+testsuite::ticket-459											test that changing the leak reversal potential leaves all other neuron parameters else unchanged
+testsuite::ticket-460											Check that local and global Get{Node/Leaves/Children} work
+testsuite::ticket-464											Ensure that UniversalDataLogger triggers assertion with frozen multimeter.
+testsuite::ticket-466.sli										test if mirollo_strogatz_ps can handle simultaneous inputs
+testsuite::ticket-475											Ensure that data collection across threads works
+testsuite::ticket-478											Ensure that devices can only be connected using static synapses.
+testsuite::ticket-481											Ensure that poisson_generator_ps delivers spikes to more than one node
+testsuite::ticket-507											Ensure that spike_detector throws exception on SetStatus if off-grid times are set
+testsuite::ticket-519											Ensure that multimeter behaves even if no data on some threads
+testsuite::ticket-520											Ensure that multimeter returns correct number of time points in accumulator mode
+testsuite::ticket-537											Regression test for memory allocation/free error in TokenarrayObj
+testsuite::ticket-543											Regression test showing too many connections being created on iteration over nested subnets
+testsuite::ticket-564											Regression test for OpenMP-parallel problems on OSX
+testsuite::ticket-566											Regression test for setting a fake number of processes.
+testsuite::ticket-573											Maximum number of synapse types reached in copy_synapse_prototype without error message
+testsuite::ticket-580											getinterval: No error if range of array is exceeded
+testsuite::ticket-618											catch nodes which require tau_mem != tau_syn
+testsuite::ticket-619											Regression test for kernel SetStatus problem
+testsuite::ticket-638											Precise models remain refractory indefinitely
+testsuite::ticket-673											Precise models are inconsistent with 
+testsuite::ticket-681											Ensure that NEST handles errors during node preparation properly
+testsuite::ticket-683											Ensure that NEST raises error when number of threads changed too late.
+testsuite::ticket-686											catch nodes which do not require tau_*, C_m > 0
+testsuite::ticket-689											GetConnections throws Segmentation Fault if hpc_synapses are used.
+testsuite::ticket-692											ensure GetConnections checks its args
+testsuite::ticket-710											HPC synapses do not work for spike detectors.
+testsuite::ticket-716											stdp dopamine synapse changes weight in the absence of presynaptic spikes
+testsuite::ticket-733											neq does not work correctly for intvector and doublevector
+testsuite::ticket-737											Ensure that stimulating devices can only be connected with a single synapse type
+testsuite::ticket-754											grng_seed not set correctly under certain circumstances
+testsuite::ticket-772											NEST should not crash, if integer values for weight/ delay are used
+testsuite::ticket-777											SLI conditional jump typecheck bool arg
+testsuite::ticket-784											xor and neq are not protected by tries
+testsuite::ticket-785											fail_or_die inconsistenly reports errors
+testsuite::ticket-787											Ensure that all commands raise errors instead of crashing
+testsuite::ticket-798											Random number generation fails in multi-threaded simulation of quantal_stp_synapse
+testsuite::ticket-800											Ensure that Topology parameters check their parameters
+testsuite::ticket-85											Ensure that plastic synapses can be used with precise models.
+testsuite::ticket-881											ConnectLayers creates too few connections under some conditions when running on multiple threads
+testsuite::ticket-903											Ensure delays are not strictly rounded up
+testsuite::ticket-921											Ensure rport in synapse defaults is unaffected by Connect
+testsuite::ticket-926											Ensure stdp_dopamine_synapse does not lead to segfault
+testsuite::ticket-933											Ensure that pp_pop_psc_delta generates same results when run in small intervals
+testsuite::ticket-941											Ensure that GetConnections works correctly with multiple synapse models
+testsuite::ticket-949											Ensure Connect throws an error if trying to connect with delay < resolution.
+testsuite::ticket-955											Check that CreateLayer even works with a single neuron layer on multiple processes
+testsuite::ticket-959											Ensure that pp_psc_delta generates same results when run in small intervals
+testsuite__crash_distributed_assert_or_die						testsuite__crash_distributed_assert_or_die
+testsuite__crash_distributed_collect_assert_or_die				testsuite__crash_distributed_collect_assert_or_die
+testsuite__crash_distributed_invariant_assert_or_die			testsuite__crash_distributed_invariant_assert_or_die
+testsuite__crash_distributed_pass_or_die						testsuite__crash_distributed_pass_or_die
+testsuite__crash_distributed_process_invariant_collect_assert_or_die	testsuite__crash_distributed_process_invariant_collect_assert_or_die
+testsuite__crash_distributed_process_invariant_events_assert_or_die	testsuite__crash_distributed_process_invariant_events_assert_or_die
+testsuite__crash_distributed_rank_invariant_collect_assert_or_die	testsuite__crash_distributed_rank_invariant_collect_assert_or_die
+testsuite__fail_distributed_assert_or_die						testsuite__fail_distributed_assert_or_die
+testsuite__fail_distributed_collect_assert_or_die				testsuite__fail_distributed_collect_assert_or_die
+testsuite__fail_distributed_invariant_assert_or_die				testsuite__fail_distributed_invariant_assert_or_die
+testsuite__fail_distributed_pass_or_die							testsuite__fail_distributed_pass_or_die
+testsuite__fail_distributed_process_invariant_collect_assert_or_die	testsuite__fail_distributed_process_invariant_collect_assert_or_die
+testsuite__fail_distributed_process_invariant_events_assert_or_die	testsuite__fail_distributed_process_invariant_events_assert_or_die
+testsuite__fail_distributed_rank_invariant_collect_assert_or_die	testsuite__fail_distributed_rank_invariant_collect_assert_or_die
+testsuite__issue-105											testsuite__issue-105
+testsuite__issue-264											testsuite__issue-264
+testsuite__issue-281											testsuite__issue-281
+testsuite__issue-311											testsuite__issue-311
+testsuite__issue-327											testsuite__issue-327
+testsuite__issue-351											testsuite__issue-351
+testsuite__issue-368											testsuite__issue-368
+testsuite__issue-410											testsuite__issue-410
+testsuite__issue-437											testsuite__issue-437
+testsuite__issue-463											testsuite__issue-463
+testsuite__issue-521											testsuite__issue-521
+testsuite__issue-527											testsuite__issue-527
+testsuite__issue-545											testsuite__issue-545
+testsuite__issue-565											testsuite__issue-565
+testsuite__issue-600											testsuite__issue-600
+testsuite__issue-665											testsuite__issue-665
+testsuite__issue-707											testsuite__issue-707
+testsuite__issue-708											testsuite__issue-708
+testsuite__issue-735											testsuite__issue-735
+testsuite__issue-737-threads									testsuite__issue-737-threads
+testsuite__issue-737											testsuite__issue-737
+testsuite__issue-740											testsuite__issue-740
+testsuite__issue-832											testsuite__issue-832
+testsuite__test_ac_generator									testsuite__test_ac_generator
+testsuite__test_add_freeze_thaw									testsuite__test_add_freeze_thaw
+testsuite__test_aeif_cond_alpha_multisynapse					testsuite__test_aeif_cond_alpha_multisynapse
+testsuite__test_aeif_cond_beta_multisynapse						testsuite__test_aeif_cond_beta_multisynapse
+testsuite__test_all_to_all										testsuite__test_all_to_all
+testsuite__test_amat2_psc_exp									testsuite__test_amat2_psc_exp
+testsuite__test_assert_or_die_b									testsuite__test_assert_or_die_b
+testsuite__test_assert_or_die_p									testsuite__test_assert_or_die_p
+testsuite__test_badhandler										testsuite__test_badhandler
+testsuite__test_bernoulli_synapse								testsuite__test_bernoulli_synapse
+testsuite__test_binary											testsuite__test_binary
+testsuite__test_common_props_setting							testsuite__test_common_props_setting
+testsuite__test_connect											testsuite__test_connect
+testsuite__test_connect_array_all_to_all_mpi					testsuite__test_connect_array_all_to_all_mpi
+testsuite__test_connect_array_fixed_indegree_mpi				testsuite__test_connect_array_fixed_indegree_mpi
+testsuite__test_connect_array_fixed_outdegree_mpi				testsuite__test_connect_array_fixed_outdegree_mpi
+testsuite__test_conngen_interface								testsuite__test_conngen_interface
+testsuite__test_cont_delay_synapse								testsuite__test_cont_delay_synapse
+testsuite__test_copymodel										testsuite__test_copymodel
+testsuite__test_corr_det										testsuite__test_corr_det
+testsuite__test_corr_matrix_det									testsuite__test_corr_matrix_det
+testsuite__test_count_connections								testsuite__test_count_connections
+testsuite__test_crash_or_die									testsuite__test_crash_or_die
+testsuite__test_cva												testsuite__test_cva
+testsuite__test_cvi												testsuite__test_cvi
+testsuite__test_DataConnect										testsuite__test_DataConnect
+testsuite__test_dcgen_versus_I_e								testsuite__test_dcgen_versus_I_e
+testsuite__test_default_delays_weights							testsuite__test_default_delays_weights
+testsuite__test_delay_after_res_change							testsuite__test_delay_after_res_change
+testsuite__test_delay_check										testsuite__test_delay_check
+testsuite__test_delay_exchange									testsuite__test_delay_exchange
+testsuite__test_dirname											testsuite__test_dirname
+testsuite__test_distributed_assert_or_die						testsuite__test_distributed_assert_or_die
+testsuite__test_distributed_collect_assert_or_die				testsuite__test_distributed_collect_assert_or_die
+testsuite__test_distributed_invariant_assert_or_die				testsuite__test_distributed_invariant_assert_or_die
+testsuite__test_distributed_pass_or_die							testsuite__test_distributed_pass_or_die
+testsuite__test_distributed_process_invariant_collect_assert_or_die	testsuite__test_distributed_process_invariant_collect_assert_or_die
+testsuite__test_distributed_process_invariant_events_assert_or_die	testsuite__test_distributed_process_invariant_events_assert_or_die
+testsuite__test_distributed_rank_invariant_collect_assert_or_die	testsuite__test_distributed_rank_invariant_collect_assert_or_die
+testsuite__test_DoubleVector_IntVector.sli						testsuite__test_DoubleVector_IntVector.sli
+testsuite__test_fail											testsuite__test_fail
+testsuite__test_failbutnocrash_or_die_crash						testsuite__test_failbutnocrash_or_die_crash
+testsuite__test_failbutnocrash_or_die_pass						testsuite__test_failbutnocrash_or_die_pass
+testsuite__test_failpass_or_die									testsuite__test_failpass_or_die
+testsuite__test_fast_operators									testsuite__test_fast_operators
+testsuite__test_fixed_indegree									testsuite__test_fixed_indegree
+testsuite__test_gamma_sup_generator								testsuite__test_gamma_sup_generator
+testsuite__test_gap_junction									testsuite__test_gap_junction
+testsuite__test_gap_junctions_mpi								testsuite__test_gap_junctions_mpi
+testsuite__test_get_node_fncs									testsuite__test_get_node_fncs
+testsuite__test_GetConnections									testsuite__test_GetConnections
+testsuite__test_getnodes										testsuite__test_getnodes
+testsuite__test_getrng_neuron									testsuite__test_getrng_neuron
+testsuite__test_getrng_Vmset									testsuite__test_getrng_Vmset
+testsuite__test_gif_cond_exp									testsuite__test_gif_cond_exp
+testsuite__test_gif_cond_exp_multisynapse						testsuite__test_gif_cond_exp_multisynapse
+testsuite__test_gif_psc_exp										testsuite__test_gif_psc_exp
+testsuite__test_gif_psc_exp_multisynapse						testsuite__test_gif_psc_exp_multisynapse
+testsuite__test_ginzburg_neuron									testsuite__test_ginzburg_neuron
+testsuite__test_global_rng										testsuite__test_global_rng
+testsuite__test_goodhandler										testsuite__test_goodhandler
+testsuite__test_gsd												testsuite__test_gsd
+testsuite__test_gsd_distribution								testsuite__test_gsd_distribution
+testsuite__test_gsd_distribution_threaded						testsuite__test_gsd_distribution_threaded
+testsuite__test_gsd_FixedTotalNumber							testsuite__test_gsd_FixedTotalNumber
+testsuite__test_hh_cond_exp_traub								testsuite__test_hh_cond_exp_traub
+testsuite__test_hh_psc_alpha_gap								testsuite__test_hh_psc_alpha_gap
+testsuite__test_hpc_synapse										testsuite__test_hpc_synapse
+testsuite__test_iaf												testsuite__test_iaf
+testsuite__test_iaf_1to2										testsuite__test_iaf_1to2
+testsuite__test_iaf_1to2_ex										testsuite__test_iaf_1to2_ex
+testsuite__test_iaf_dc											testsuite__test_iaf_dc
+testsuite__test_iaf_dc_aligned									testsuite__test_iaf_dc_aligned
+testsuite__test_iaf_dc_aligned_automatic						testsuite__test_iaf_dc_aligned_automatic
+testsuite__test_iaf_dc_aligned_delay							testsuite__test_iaf_dc_aligned_delay
+testsuite__test_iaf_dc_aligned_stop								testsuite__test_iaf_dc_aligned_stop
+testsuite__test_iaf_fudge										testsuite__test_iaf_fudge
+testsuite__test_iaf_i0											testsuite__test_iaf_i0
+testsuite__test_iaf_i0_refractory								testsuite__test_iaf_i0_refractory
+testsuite__test_iaf_min_delay_create							testsuite__test_iaf_min_delay_create
+testsuite__test_iaf_min_delay_set								testsuite__test_iaf_min_delay_set
+testsuite__test_iaf_min_delay_simblocks							testsuite__test_iaf_min_delay_simblocks
+testsuite__test_iaf_ps_dc_accuracy								testsuite__test_iaf_ps_dc_accuracy
+testsuite__test_iaf_ps_dc_t_accuracy							testsuite__test_iaf_ps_dc_t_accuracy
+testsuite__test_iaf_ps_psp_accuracy								testsuite__test_iaf_ps_psp_accuracy
+testsuite__test_iaf_ps_psp_poisson_accuracy						testsuite__test_iaf_ps_psp_poisson_accuracy
+testsuite__test_iaf_ps_psp_poisson_generator_accuracy			testsuite__test_iaf_ps_psp_poisson_generator_accuracy
+testsuite__test_iaf_ps_psp_poisson_spike_accuracy				testsuite__test_iaf_ps_psp_poisson_spike_accuracy
+testsuite__test_iaf_psc_alpha_multisynapse						testsuite__test_iaf_psc_alpha_multisynapse
+testsuite__test_iaf_psc_exp										testsuite__test_iaf_psc_exp
+testsuite__test_iaf_psc_exp_multisynapse						testsuite__test_iaf_psc_exp_multisynapse
+testsuite__test_iaf_psp											testsuite__test_iaf_psp
+testsuite__test_iaf_psp_normalized								testsuite__test_iaf_psp_normalized
+testsuite__test_iaf_psp_peak									testsuite__test_iaf_psp_peak
+testsuite__test_iaf_ring										testsuite__test_iaf_ring
+testsuite__test_inh_stdp_synapse								testsuite__test_inh_stdp_synapse
+testsuite__test_lambertw										testsuite__test_lambertw
+testsuite__test_lazyhandler										testsuite__test_lazyhandler
+testsuite__test_Map												testsuite__test_Map
+testsuite__test_MapIndexed										testsuite__test_MapIndexed
+testsuite__test_mat2_psc_exp									testsuite__test_mat2_psc_exp
+testsuite__test_max_delay										testsuite__test_max_delay
+testsuite__test_min_delay										testsuite__test_min_delay
+testsuite__test_mini_brunel_ps									testsuite__test_mini_brunel_ps
+testsuite__test_mip_corrdet										testsuite__test_mip_corrdet
+testsuite__test_mip_generator									testsuite__test_mip_generator
+testsuite__test_multimeter										testsuite__test_multimeter
+testsuite__test_multimeter_accu									testsuite__test_multimeter_accu
+testsuite__test_multimeter_freeze_thaw							testsuite__test_multimeter_freeze_thaw
+testsuite__test_multimeter_offset								testsuite__test_multimeter_offset
+testsuite__test_multimeter_stepping								testsuite__test_multimeter_stepping
+testsuite__test_multimeter_support								testsuite__test_multimeter_support
+testsuite__test_multiple_multimeter								testsuite__test_multiple_multimeter
+testsuite__test_multiple_random_source_stepping					testsuite__test_multiple_random_source_stepping
+testsuite__test_multisynapse_models								testsuite__test_multisynapse_models
+testsuite__test_multithreading									testsuite__test_multithreading
+testsuite__test_multithreading_devices							testsuite__test_multithreading_devices
+testsuite__test_noise_generator									testsuite__test_noise_generator
+testsuite__test_one_to_one										testsuite__test_one_to_one
+testsuite__test_pairwise_bernoulli								testsuite__test_pairwise_bernoulli
+testsuite__test_parse_message_line								testsuite__test_parse_message_line
+testsuite__test_pass											testsuite__test_pass
+testsuite__test_pass_or_die										testsuite__test_pass_or_die
+testsuite__test_passorfailbutnocrash_or_die						testsuite__test_passorfailbutnocrash_or_die
+testsuite__test_poisson_generator								testsuite__test_poisson_generator
+testsuite__test_poisson_generator_campbell_alpha				testsuite__test_poisson_generator_campbell_alpha
+testsuite__test_poisson_generator_ps							testsuite__test_poisson_generator_ps
+testsuite__test_poisson_ps_intervals							testsuite__test_poisson_ps_intervals
+testsuite__test_poisson_ps_min_interval							testsuite__test_poisson_ps_min_interval
+testsuite__test_pp_pop_psc_delta								testsuite__test_pp_pop_psc_delta
+testsuite__test_pp_psc_delta									testsuite__test_pp_psc_delta
+testsuite__test_ppd_sup_generator								testsuite__test_ppd_sup_generator
+testsuite__test_psp_amplitude_consistency						testsuite__test_psp_amplitude_consistency
+testsuite__test_pulsepacket_generator							testsuite__test_pulsepacket_generator
+testsuite__test_random											testsuite__test_random
+testsuite__test_random_binomial									testsuite__test_random_binomial
+testsuite__test_random_clipped									testsuite__test_random_clipped
+testsuite__test_rate_connections								testsuite__test_rate_connections
+testsuite__test_rate_neurons_mpi								testsuite__test_rate_neurons_mpi
+testsuite__test_rdv_discreteness								testsuite__test_rdv_discreteness
+testsuite__test_rdv_param_setting								testsuite__test_rdv_param_setting
+testsuite__test_recorde_close_flush								testsuite__test_recorde_close_flush
+testsuite__test_rng_seeds										testsuite__test_rng_seeds
+testsuite__test_round											testsuite__test_round
+testsuite__test_set_delay_extrema								testsuite__test_set_delay_extrema
+testsuite__test_set_start_stop_origin							testsuite__test_set_start_stop_origin
+testsuite__test_set_tics										testsuite__test_set_tics
+testsuite__test_set_Vm											testsuite__test_set_Vm
+testsuite__test_sinusoidal_gamma_generator						testsuite__test_sinusoidal_gamma_generator
+testsuite__test_sinusoidal_gamma_generator_1					testsuite__test_sinusoidal_gamma_generator_1
+testsuite__test_sinusoidal_gamma_generator_2					testsuite__test_sinusoidal_gamma_generator_2
+testsuite__test_sinusoidal_gamma_generator_3					testsuite__test_sinusoidal_gamma_generator_3
+testsuite__test_sinusoidal_gamma_generator_4					testsuite__test_sinusoidal_gamma_generator_4
+testsuite__test_sinusoidal_poisson_generator					testsuite__test_sinusoidal_poisson_generator
+testsuite__test_sinusoidal_poisson_generator_1					testsuite__test_sinusoidal_poisson_generator_1
+testsuite__test_sinusoidal_poisson_generator_2					testsuite__test_sinusoidal_poisson_generator_2
+testsuite__test_sinusoidal_poisson_generator_3					testsuite__test_sinusoidal_poisson_generator_3
+testsuite__test_sinusoidal_poisson_generator_4					testsuite__test_sinusoidal_poisson_generator_4
+testsuite__test_sinusoidal_poisson_generator_5					testsuite__test_sinusoidal_poisson_generator_5
+testsuite__test_sinusoidal_poisson_generator_6					testsuite__test_sinusoidal_poisson_generator_6
+testsuite__test_sli_neuron										testsuite__test_sli_neuron
+testsuite__test_sort											testsuite__test_sort
+testsuite__test_spike_det_reset									testsuite__test_spike_det_reset
+testsuite__test_spike_detector									testsuite__test_spike_detector
+testsuite__test_spike_dilutor									testsuite__test_spike_dilutor
+testsuite__test_spike_generator									testsuite__test_spike_generator
+testsuite__test_spike_poisson_ps								testsuite__test_spike_poisson_ps
+testsuite__test_spike_poisson_ps_base2.sli						testsuite__test_spike_poisson_ps_base2.sli
+testsuite__test_spin_detector									testsuite__test_spin_detector
+testsuite__test_stdp_synapse									testsuite__test_stdp_synapse
+testsuite__test_step_current_generator							testsuite__test_step_current_generator
+testsuite__test_steppedsim										testsuite__test_steppedsim
+testsuite__test_stop											testsuite__test_stop
+testsuite__test_supports_precise_spikes_flag					testsuite__test_supports_precise_spikes_flag
+testsuite__test_symmetric_connections							testsuite__test_symmetric_connections
+testsuite__test_symmetric_connections_mpi						testsuite__test_symmetric_connections_mpi
+testsuite__test_syn_hom_w										testsuite__test_syn_hom_w
+testsuite__test_thread_local_ids								testsuite__test_thread_local_ids
+testsuite__test_threaded_neuron_device_connections				testsuite__test_threaded_neuron_device_connections
+testsuite__test_voltmeter_reset									testsuite__test_voltmeter_reset
+testsuite__test_wfr_settings									testsuite__test_wfr_settings
+testsuite__ticket-336-mpi										testsuite__ticket-336-mpi
+testsuite__ticket-336-serial									testsuite__ticket-336-serial
+testsuite__ticket-386											testsuite__ticket-386
+testsuite__ticket-396											testsuite__ticket-396
+testsuite__ticket-399											testsuite__ticket-399
+testsuite__ticket-421											testsuite__ticket-421
+testsuite__ticket-433											testsuite__ticket-433
+testsuite__ticket-451											testsuite__ticket-451
+testsuite__ticket-452											testsuite__ticket-452
+testsuite__ticket-459											testsuite__ticket-459
+testsuite__ticket-460											testsuite__ticket-460
+testsuite__ticket-464											testsuite__ticket-464
+testsuite__ticket-466.sli										testsuite__ticket-466.sli
+testsuite__ticket-475											testsuite__ticket-475
+testsuite__ticket-478											testsuite__ticket-478
+testsuite__ticket-481											testsuite__ticket-481
+testsuite__ticket-507											testsuite__ticket-507
+testsuite__ticket-519											testsuite__ticket-519
+testsuite__ticket-520											testsuite__ticket-520
+testsuite__ticket-537											testsuite__ticket-537
+testsuite__ticket-543											testsuite__ticket-543
+testsuite__ticket-564											testsuite__ticket-564
+testsuite__ticket-566											testsuite__ticket-566
+testsuite__ticket-573											testsuite__ticket-573
+testsuite__ticket-580											testsuite__ticket-580
+testsuite__ticket-618											testsuite__ticket-618
+testsuite__ticket-619											testsuite__ticket-619
+testsuite__ticket-638											testsuite__ticket-638
+testsuite__ticket-673											testsuite__ticket-673
+testsuite__ticket-681											testsuite__ticket-681
+testsuite__ticket-683											testsuite__ticket-683
+testsuite__ticket-686											testsuite__ticket-686
+testsuite__ticket-689											testsuite__ticket-689
+testsuite__ticket-692											testsuite__ticket-692
+testsuite__ticket-710											testsuite__ticket-710
+testsuite__ticket-716											testsuite__ticket-716
+testsuite__ticket-733											testsuite__ticket-733
+testsuite__ticket-737											testsuite__ticket-737
+testsuite__ticket-754											testsuite__ticket-754
+testsuite__ticket-772											testsuite__ticket-772
+testsuite__ticket-777											testsuite__ticket-777
+testsuite__ticket-784											testsuite__ticket-784
+testsuite__ticket-785											testsuite__ticket-785
+testsuite__ticket-787											testsuite__ticket-787
+testsuite__ticket-798											testsuite__ticket-798
+testsuite__ticket-800											testsuite__ticket-800
+testsuite__ticket-85											testsuite__ticket-85
+testsuite__ticket-881											testsuite__ticket-881
+testsuite__ticket-903											testsuite__ticket-903
+testsuite__ticket-921											testsuite__ticket-921
+testsuite__ticket-926											testsuite__ticket-926
+testsuite__ticket-933											testsuite__ticket-933
+testsuite__ticket-941											testsuite__ticket-941
+testsuite__ticket-949											testsuite__ticket-949
+testsuite__ticket-955											testsuite__ticket-955
+testsuite__ticket-959											testsuite__ticket-959
+threshold_lin_rate												rate model with threshold-linear gain function
+tic																start timing script execution 
+time															return wall clock time in s since 1.1.1970 0 
+TimeCommunication												returns average time taken for MPI_Allgather over n calls with m bytes
+TimeCommunication												returns average time taken for MPI_Allgather over n 
+TimeCommunicationAlltoall										returns average time taken for MPI_Alltoall over n calls with m bytes
+TimeCommunicationAlltoall										returns average time taken for MPI_Alltoall 
+TimeCommunicationAlltoallv										returns average time taken for MPI_Alltoallv over n calls with m bytes
+TimeCommunicationAlltoallv										returns average time taken for 
+TimeCommunicationOffgrid										returns average time taken for MPI_Allgather over n calls with m bytes when communication offgrid spikes
+TimeCommunicationv												returns average time taken for MPI_Allgatherv over 
+Times															represents/computes product of terms
+tmpnam															Generate a string that is a valid non-existing file-name.
+toc																Return wall clock time elapsed since tic was called. 
+token															read a token from a stream or string
+token_is														read a token from an input stream 
+token_s															read a token from a string 
+ToLowercase														Convert a string to lower case.
+ToMathematicaExpression											converts SLI data to Mathematica input
+topinfo_d														print contents of top dictionary to stream
+topology::ConnectLayers											connect two layers
+topology::CreateLayer											create a spatial layer of nodes
+topology::CreateMask											create a spatial mask
+topology::CreateParameter										create a spatial function
+topology::Displacement											compute displacement vector
+topology::Distance												compute distance between nodes
+topology::DumpLayerConnections									prints a list of the connections of the 
+topology::DumpLayerNodes										write information about layer nodes to file
+topology::GetElement											return node GID at specified layer position
+topology::GetPosition											retrieve position of input node
+topology::GetValue												compute value of parameter at a point
+topology::Inside												test if a point is inside a mask
+topology__ConnectLayers											topology__ConnectLayers
+topology__CreateLayer											topology__CreateLayer
+topology__CreateMask											topology__CreateMask
+topology__CreateParameter										topology__CreateParameter
+topology__Displacement											topology__Displacement
+topology__Distance												topology__Distance
+topology__DumpLayerConnections									topology__DumpLayerConnections
+topology__DumpLayerNodes										topology__DumpLayerNodes
+topology__GetElement											topology__GetElement
+topology__GetPosition											topology__GetPosition
+topology__GetValue												topology__GetValue
+topology__Inside												topology__Inside
+Total															returns the sum of the elements of an array
+ToUppercase														Convert a string to upper case.
+Transpose														Transposes the first two levels of its argument
+trie															Create a new type-trie object
+trieinfo														print the function variants of a type-trie.
+trim															Delete leading/trailing elements in a container.
+trunc															Truncate decimals of a double
+tsodyks2_synapse												Synapse type with short term plasticity.
+tsodyks2_synapse_hpc											Variant of tsodyks2_synapse with low memory 
+tsodyks_synapse													Synapse type with short term plasticity.
+tsodyks_synapse_hom												Synapse type with short term plasticity using 
+tsodyks_synapse_hom_hpc											Variant of tsodyks_synapse_hom with low 
+tsodyks_synapse_hpc												Variant of tsodyks_synapse with low memory 
+type															Return the type of an object
+typebind														optimizes procedure for certain data type
+typeinfo														return the type of an object
+typestack														Display types of operand stack
+undef															Remove a key from a dictionary.
+unit_conversion													Conversion factors for SI units.
+UnitStep														The unit step function (aka Heavyside function)
+unittest::assert_or_die											Check condition and quit with exit code 1 if it fails
+unittest::crash_or_die											Execute a code block and exit with exit code 3 if nest does not crash
+unittest::distributed_assert_or_die								Checks whether code is independent of number of number of jobs
+unittest::distributed_collect_assert_or_die						Checks whether result is independent of number of number of jobs
+unittest::distributed_invariant_assert_or_die					Checks whether code is independent of number of number of jobs
+unittest::distributed_pass_or_die								Checks whether code runs for different numbers of jobs
+unittest::distributed_process_invariant_collect_assert_or_die	Checks whether the pooled results of all ranks are equal, independent of the number of MPI processes
+unittest::distributed_process_invariant_events_assert_or_die	Checks whether the pooled event dictionaries from all ranks are equal, independent of the number of MPI processes
+unittest::distributed_rank_invariant_collect_assert_or_die		Checks whether all ranks produce equal results, independent of the number of MPI processes
+unittest::exit_test_gracefully									End test script and report success
+unittest::fail_or_die											Execute a code block and exit with exit code 3 if it does not raise an error.
+unittest::failbutnocrash_or_die									Execute a code block and exit with exit code 3 if it does not raise a scripterror
+unittest::InflateUnitTestData									reformat compressed reference data
+unittest::mpirun_self											calls a distributed version of nest on the calling file
+unittest::pass_or_die											Execute a code block and quit with exit code 2 if it fails.
+unittest::passorfailbutnocrash_or_die							Execute a code block and exit with exit code 3 if it crashes
+unittest::ToUnitTestPrecision									reduce argument to specified precision.
+unittest__assert_or_die											unittest__assert_or_die
+unittest__crash_or_die											unittest__crash_or_die
+unittest__distributed_assert_or_die								unittest__distributed_assert_or_die
+unittest__distributed_collect_assert_or_die						unittest__distributed_collect_assert_or_die
+unittest__distributed_invariant_assert_or_die					unittest__distributed_invariant_assert_or_die
+unittest__distributed_pass_or_die								unittest__distributed_pass_or_die
+unittest__distributed_process_invariant_collect_assert_or_die	unittest__distributed_process_invariant_collect_assert_or_die
+unittest__distributed_process_invariant_events_assert_or_die	unittest__distributed_process_invariant_events_assert_or_die
+unittest__distributed_rank_invariant_collect_assert_or_die		unittest__distributed_rank_invariant_collect_assert_or_die
+unittest__exit_test_gracefully									unittest__exit_test_gracefully
+unittest__fail_or_die											unittest__fail_or_die
+unittest__failbutnocrash_or_die									unittest__failbutnocrash_or_die
+unittest__InflateUnitTestData									unittest__InflateUnitTestData
+unittest__mpirun_self											unittest__mpirun_self
+unittest__pass_or_die											unittest__pass_or_die
+unittest__passorfailbutnocrash_or_die							unittest__passorfailbutnocrash_or_die
+unittest__ToUnitTestPrecision									unittest__ToUnitTestPrecision
+usertime														returns usertime for current process 
+using															Make symbols of a namespace or dictionary available in the current scope.
+validate														Check if a function is consistent with all its examples
+values															Return array of values in a dictionary
+Variance														returns the variance of the elements of an array
+variant															return specific variant of function
+verbosity														return the current verbosity level for interpreter messages
+vogels_sprekeler_synapse										Synapse type for symmetric spike-timing 
+vogels_sprekeler_synapse_hpc									Variant of vogels_sprekeler_synapse 
+voltmeter														Device to record membrane potential from neurons.
+volume_transmitter												Node used in combination with neuromodulated synaptic 
+wait															Wait for any child process to terminate
+waitPID															wait or check for a child process to terminate
+weight_recorder													Device for detecting single spikes.
+welcome															Print SLI welcome message
+which															Display the name of a command's source file.
+who																list contents of  the top-level dicitonary
+whos															list contents of all dictionaries on the dicitonary stack
+writePGM														write out a grey-level image in PGM format 
+xifstream														Create an executable input-stream.
+xor																logical xor operator.
+zeros															Return a DoubleVector filled with zeros. 
+-->																longrightarrow, usually delayed comparison
+--_																--_
+::																execute a symbol from a nested namespace
+:cgnext															Call next() on a ConnectionGenerator
+:cgsetmask														Call setMasks() on a ConnectionGenerator
+:cgstart														Call start() on a ConnectionGenerator
+:regerror														return message of what went wrong with "regcomp_"
+:resize															Change the internal size of an array.
+<<>>															Create a new dictionary.
+<>																Construct an array or vector, depending on the element type.
+=																Print object to screen.
+==																Print object to screen in syntax-form.
+==only															Print syntax form of object to screen without linefeed
+=only															Print object to screen without linefeed

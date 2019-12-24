@@ -1,0 +1,30 @@
+Synopsis:
+
+(issue-737-threads) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that NEST raises an error if the user tries to 
+set c or n in the stdp_dopamine_synapse specification given to the Connect call 
+when we have more than one thread.
+
+
+Author:
+
+Stine B. Vennemo
+
+
+FirstVersion:
+
+May 2017
+
+
+SeeAlso:
+
+testsuite::issue-735
+testsuite::issue-737
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/issue-737-threads.sli

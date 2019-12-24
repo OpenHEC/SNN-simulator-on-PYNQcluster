@@ -1,0 +1,57 @@
+Name: CGConnect - Establish connections contained in a ConnectionGenerator
+
+Synopsis:
+
+cg sources targets	 -> 	- 
+cg sources targets params	 -> 	- 
+cg sources targets	 syn_model -> 	- 
+cg sources targets params syn_model -> 	-
+
+
+Description:
+
+CGConnect connects a source and a target population according to 
+the rules defined in the given connection generator. params is an 
+optional dictionary, that maps the names /weight and/or /delay to 
+their integer index in the value set in the connection generator. 
+If not specified, the synapse model is taken from the Options of 
+the Connect command.
+
+
+Parameters:
+
+cg	 connectiongenerator		- ConnectionGenerator 
+sources   gidcollection/array/intvector 	- the GIDs of the sources 
+targets   gidcollection/array/intvector 	- the GIDs of the targets 
+params	 dict (optional)  	- A map that translates the names /weight and 
+/delay to indices in the value set 
+syn_model  literal (optional)	- A literal specifying the synapse model
+
+
+Availability:
+
+Only if compiled with libneurosim support
+
+
+Author:
+
+Jochen Martin Eppler
+
+
+FirstVersion:
+
+August 2012
+
+
+SeeAlso:
+
+Connect
+synapsedict
+GetOptions
+CGParse
+CGParseFile
+CGSelectImplementation
+
+Source:
+
+/home/xilinx/nest_fpga_compe/conngen/conngenmodule.cpp

@@ -1,0 +1,30 @@
+Name: testsuite::test_rate_connections - This test ensures that rate connections 
+ (rate_connection_instantaneous, rate_connection_delayed, diffusion_connection) work properly.
+
+Synopsis:
+
+(test_rate_connections) run -> NEST exits if test fails
+
+
+Description:
+
+The test ensures that legal rate connections can be created and that an exception 
+is thrown if one tries to create illegal rate connections. 
+Furthermore it is checked that the delay cannot be set for rate_connection_instantaneous connections and 
+that delay and weight cannot be set for diffusion_connection connections.
+
+
+Author:
+
+Jan Hahne
+
+
+SeeAlso:
+
+rate_connection_instantaneous
+rate_connection_delayed
+diffusion_connection
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/unittests/test_rate_connections.sli

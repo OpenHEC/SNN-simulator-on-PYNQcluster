@@ -1,0 +1,44 @@
+Name: CGSelectImplementation - Call 
+ ConnectionGenerator::selectCGImplementation()
+
+Synopsis:
+
+tag library CGParse ->	-
+
+
+Description:
+
+Select a library to provide a parser for XML files and associate 
+an XML tag with the library.
+
+
+Parameters:
+
+tag		- The XML tag to associate with a library. 
+library	- The library to provide the parsing for CGParse
+
+
+Availability:
+
+Only if compiled with libneurosim support
+
+
+Author:
+
+Jochen Martin Eppler
+
+
+FirstVersion:
+
+September 2013
+
+
+SeeAlso:
+
+CGParse
+CGParseFile
+CGConnect
+
+Source:
+
+/home/xilinx/nest_fpga_compe/conngen/conngenmodule.cpp

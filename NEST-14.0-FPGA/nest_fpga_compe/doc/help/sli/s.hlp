@@ -1,0 +1,10 @@
+Name: s - Specification in s (for readability)
+
+SeeAlso:
+
+unit_conversion
+ms2hms
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/nest-init.sli

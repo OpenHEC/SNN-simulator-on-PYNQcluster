@@ -1,0 +1,44 @@
+Name: CGParse - Call ConnectionGenerator::fromXML() and return a 
+ ConnectionGenerator
+
+Synopsis:
+
+xml_string CGParse -> cg
+
+
+Description:
+
+Return a ConnectionGenerator created by deserializing the given 
+XML string. The library to parse the XML string can be selected using 
+CGSelectImplementation
+
+
+Parameters:
+
+xml_string	- The XML string to parse.
+
+
+Availability:
+
+Only if compiled with libneurosim support
+
+
+Author:
+
+Jochen Martin Eppler
+
+
+FirstVersion:
+
+September 2013
+
+
+SeeAlso:
+
+CGParseFile
+CGConnect
+CGSelectImplementation
+
+Source:
+
+/home/xilinx/nest_fpga_compe/conngen/conngenmodule.cpp

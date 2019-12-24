@@ -1,0 +1,27 @@
+Synopsis:
+
+(issue-545) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that calling SetDefaults with a wrong datatype raises 
+an exception.
+
+
+Author:
+
+Jan Hahne
+
+
+FirstVersion:
+
+April 2017
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-545.sli

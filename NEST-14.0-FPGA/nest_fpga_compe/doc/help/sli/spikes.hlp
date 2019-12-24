@@ -1,0 +1,9 @@
+Name: spikes - Specification in spikes (for readability)
+
+SeeAlso:
+
+unit_conversion
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/nest-init.sli

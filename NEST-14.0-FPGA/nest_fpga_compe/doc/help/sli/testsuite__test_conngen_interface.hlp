@@ -1,0 +1,31 @@
+Name: testsuite::test_conngen_interface - Test runability of all CGConnect variants
+
+Synopsis:
+
+(test_conngen_interface) run
+
+
+Description:
+
+Tests if all variants of CGConnect can be run. This test only checks the 
+SLI part of the ConnectionGenerator interface. The PyNEST interface is 
+tested in pynest/nest/tests/test_csa.py.
+
+
+Author:
+
+Jochen Martin Eppler
+
+
+FirstVersion:
+
+June 2016
+
+
+SeeAlso:
+
+CGConnect
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/examples/nest/conngen_interface.sli

@@ -1,0 +1,26 @@
+Name: Prepare - prepare the network for a simulation
+
+Synopsis:
+
+Prepare ->	-
+
+
+Description:
+
+sets up network calibration before run is called 
+any number of times 
+Note: Run must only be used after Prepare is called, and 
+before Cleanup to finalize state (close files, etc). 
+Any changes made between Prepare and Cleanup may cause 
+undefined behavior and incorrect results.
+
+
+SeeAlso:
+
+Run
+Cleanup
+Simulate
+
+Source:
+
+/home/xilinx/nest_fpga_compe/nestkernel/nestmodule.cpp

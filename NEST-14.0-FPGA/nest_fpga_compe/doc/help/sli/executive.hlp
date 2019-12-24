@@ -1,0 +1,12 @@
+Name: executive - Start interactive interpreter session.
+
+SeeAlso:
+
+callback
+exithook
+quit
+exit
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/sli-init.sli

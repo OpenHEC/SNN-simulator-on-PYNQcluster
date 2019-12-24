@@ -1,0 +1,26 @@
+Name: Cleanup - cleanup the network after a simulation
+
+Synopsis:
+
+Cleanup ->	-
+
+
+Description:
+
+tears down a network after run is called 
+any number of times 
+Note: Run must only be used after Prepare is called, and 
+before Cleanup to finalize state (close files, etc). 
+Any changes made between Prepare and Cleanup may cause 
+undefined behavior and incorrect results.
+
+
+SeeAlso:
+
+Run
+Prepare
+Simulate
+
+Source:
+
+/home/xilinx/nest_fpga_compe/nestkernel/nestmodule.cpp

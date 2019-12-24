@@ -1,0 +1,31 @@
+Name: testsuite::test_multisynapse_models - test properties of multisynapse models
+
+Synopsis:
+
+(test_multisynapse_models) run
+
+
+Description:
+
+For all models with names ending in _multisynapse, this test checks 
+	- that the neuron does not accept input to rport 0 
+	- that the neuron will accept input to rport 1 in default config 
+	- that it is possible to set tau_syn/E_rev to empty vectors
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+FirstVersion:
+
+December 2016
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/unittests/test_multisynapse_models.sli

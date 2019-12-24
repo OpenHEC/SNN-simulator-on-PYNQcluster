@@ -1,0 +1,22 @@
+Name: ShowStatus - Show the status dictionary of a network node.
+
+Synopsis:
+
+gid ShowStatus ->	-
+
+
+Description:
+
+ShowStatus retrieves the status dictionary of the specified node 
+and displays it, using info. 
+ShowStatus is equivalent to the sequence "GetStatus info"
+
+
+SeeAlso:
+
+GetStatus
+info
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/nest-init.sli

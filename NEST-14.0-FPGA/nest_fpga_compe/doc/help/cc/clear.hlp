@@ -1,0 +1,10 @@
+Name: clear - Clear the entire stack.
+
+SeeAlso:
+
+pop
+npop
+
+Source:
+
+/home/xilinx/nest_fpga_compe/sli/slistack.cc

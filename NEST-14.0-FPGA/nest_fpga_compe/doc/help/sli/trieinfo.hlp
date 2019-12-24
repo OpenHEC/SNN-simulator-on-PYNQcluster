@@ -1,0 +1,10 @@
+Name: trieinfo - print the function variants of a type-trie.
+
+Synopsis:
+
+ostream trieinfo ->	-
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/typeinit.sli

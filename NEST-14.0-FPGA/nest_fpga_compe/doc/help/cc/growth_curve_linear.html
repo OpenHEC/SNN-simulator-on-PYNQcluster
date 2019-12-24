@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: growth_curve_linear</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: growth_curve_linear</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Name:</b><pre>growth_curve_linear - Linear version of a growth curve</pre>
+<b>Description: </b>
+<pre> <br/>  This class represents a linear growth rule for the number of synaptic  <br/>  elements inside a neuron. The creation and deletion of synaptic elements  <br/>  when structural plasticity is enabled, allows the dynamic rewiring of the  <br/>  network during the simulation.  <br/>  This type of growth curve uses an exact integration method to update the  <br/>  number of synaptic elements: dz/dt = nu (1	- (1/eps) * Ca(t)), where nu is  <br/>  the growth rate [elements/ms] and eps is the desired average calcium  <br/>  concentration. The growth rate nu is defined in the SynapticElement class.  <br/>   <br/>  
+</pre>
+<b>Parameters: </b>
+<pre> <br/>  eps	 double	-  The target calcium concentration that  <br/>  the neuron should look to achieve by creating or  <br/>  deleting synaptic elements. It should always be a  <br/>  positive value.  It is important to note that the  <br/>  calcium concentration is linearly proportional to the  <br/>  firing rate. This is because dCa/dt =	- Ca(t)/tau_Ca  <br/>  + beta_Ca if the neuron fires and dCa/dt =	-  <br/>  Ca(t)/tau_Ca otherwise, where tau_Ca is the calcium  <br/>  concentration decay constant and beta_Ca is the  <br/>  calcium intake constant (see SynapticElement class).  <br/>  This means that eps also defines the desired firing  <br/>  rate that the neuron should achieve.  For example, an  <br/>  eps = 0.05 [Ca2+] with tau_Ca = 10000.0 and beta_Ca =  <br/>  0.001 for a synaptic element means a desired firing  <br/>  rate of 5Hz.  <br/>   <br/>  
+</pre>
+<b>References: </b>
+<pre> <br/>  [1] Butz, Markus, Florentin Wörgötter, and Arjen van Ooyen.  <br/>  "Activity-dependent structural plasticity." Brain research reviews 60.2  <br/>  (2009): 287-305.  <br/>   <br/>  [2] Butz, Markus, and Arjen van Ooyen. "A simple rule for dendritic spine  <br/>  and axonal bouton formation can account for cortical reorganization after  <br/>  focal retinal lesions." PLoS Comput Biol 9.10 (2013): e1003259.  <br/>   <br/>  
+</pre>
+<b>Author: </b>
+<pre>Mikael Naveau  <br/>  
+</pre>
+<b>FirstVersion: </b>
+<pre>July 2013  <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/SynapticElement.html">SynapticElement</a></li>
+    <li><a href="../cc/SPManager.html">SPManager</a></li>
+    <li><a href="../cc/SPBuilder.html">SPBuilder</a></li>
+    <li><a href="../cc/GrowthCurveLinear.html">GrowthCurveLinear</a></li>
+    <li><a href="../cc/GrowthCurveGaussian.html">GrowthCurveGaussian</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/nestkernel/growth_curve.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

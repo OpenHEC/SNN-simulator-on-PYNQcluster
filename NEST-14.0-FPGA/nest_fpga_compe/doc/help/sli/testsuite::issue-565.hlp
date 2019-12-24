@@ -1,0 +1,28 @@
+Synopsis:
+
+(issue-565) run -> NEST exits if test fails
+
+
+Description:
+
+This test provokes a switch from a heterogeneous connector to a 
+homogeneous connector using the structural plasticity framework and 
+asserts that the resulting homogeneous connector is correctly used.
+
+
+Author:
+
+Jakob Jordan
+
+
+FirstVersion:
+
+November 2016
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/unittests/issue-565.sli

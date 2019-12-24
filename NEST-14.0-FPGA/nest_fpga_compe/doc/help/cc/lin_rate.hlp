@@ -1,0 +1,60 @@
+Name: lin_rate - Linear rate model
+
+Description:
+
+lin_rate is an implementation of a linear rate model with either 
+input (lin_rate_ipn) or output noise (lin_rate_opn) and gain function 
+Phi(h) = g * h. 
+The model supports connections to other rate models with either zero or 
+non-zero delay, and uses the secondary_event concept introduced with 
+the gap-junction framework.
+
+
+Parameters:
+
+The following parameters can be set in the status dictionary. 
+rate	 double	- Rate (unitless) 
+tau	 double	- Time constant of rate dynamics in ms. 
+mean	 double	- Mean of Gaussian white noise. 
+std	 double	- Standard deviation of Gaussian white noise. 
+g	 double	- Gain parameter
+
+
+Receives:
+
+InstantaneousRateConnectionEvent, DelayedRateConnectionEvent, 
+DataLoggingRequest
+
+
+Sends:
+
+InstantaneousRateConnectionEvent, DelayedRateConnectionEvent
+
+
+References:
+
+[1] Hahne, J., Dahmen, D., Schuecker, J., Frommer, A., 
+Bolten, M., Helias, M. and Diesmann, M. (2017). 
+Integration of Continuous-Time Dynamics in a 
+Spiking Neural Network Simulator. 
+Front. Neuroinform. 11:34. doi: 10.3389/fninf.2017.00034 
+[2] Hahne, J., Helias, M., Kunkel, S., Igarashi, J., 
+Bolten, M., Frommer, A. and Diesmann, M. (2015). 
+A unified framework for spiking and gap-junction interactions 
+in distributed neuronal network simulations. 
+Front. Neuroinform. 9:22. doi: 10.3389/fninf.2015.00022
+
+
+Author:
+
+David Dahmen, Jan Hahne, Jannis Schuecker
+
+
+SeeAlso:
+
+rate_connection_instantaneous
+rate_connection_delayed
+
+Source:
+
+/home/xilinx/nest_fpga_compe/models/lin_rate.h

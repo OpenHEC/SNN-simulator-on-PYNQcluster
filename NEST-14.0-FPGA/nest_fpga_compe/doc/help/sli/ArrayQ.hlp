@@ -1,0 +1,10 @@
+Name: ArrayQ - returns true if top object is an array
+
+SeeAlso:
+
+NumberQ
+LiteralQ
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/mathematica.sli

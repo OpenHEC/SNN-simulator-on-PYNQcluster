@@ -1,0 +1,25 @@
+Name: testsuite::test_rate_neurons_mpi - Test rate model neurons in parallel
+
+Synopsis:
+
+(test_rate_neurons_mpi) run ->	-
+
+
+Description:
+
+test_rate_neurons_mpi.sli checks if simulations with rate neurons 
+(lin_rate_ipn, siegert_neuron) and rate connections 
+(rate_connection_instantaneous, diffusion_connection) work in parallel. 
+Author:  Jan Hahne
+
+
+SeeAlso:
+
+lin_rate_ipn
+rate_connection_instantaneous
+siegert_neuron
+diffusion_connection
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/mpitests/test_rate_neurons_mpi.sli

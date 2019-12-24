@@ -1,0 +1,27 @@
+Synopsis:
+
+(issue-735) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that NEST raises an error if the user tries to 
+set stdp parameters that cannot be set on stdp_dopamine_synapse.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+FirstVersion:
+
+May 2017
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-735.sli

@@ -1,0 +1,20 @@
+Name: assert - assert that procedure returns true
+
+Synopsis:
+
+{assertion} assert ->	-
+
+
+Remarks:
+
+assertion is a boolean
+
+
+Author:
+
+docu by Sirko Straube
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/sli-init.sli

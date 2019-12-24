@@ -1,0 +1,26 @@
+Name: testsuite::test_multimeter_offset - Test if offset attribute works properly
+
+Synopsis:
+
+(test_multimeter_offset) run -> NEST exits if test fails
+
+
+Description:
+
+This test checks if the offset attribute of multimeter works as expected; 
+contains 3 tests: 
+1) checks if recorded times are indeed relative to an offset, and the first 
+sampled time point is the offset itself 
+2) check if data logger is initialized correctly 
+3) ensures offset can only be set before the multimeter is connected to nodes 
+4) ensures offset works correctly even if origin, start and stop are modified
+
+
+Author:
+
+Barna Zajzon, 2017-03-10
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/unittests/test_multimeter_offset.sli

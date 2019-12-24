@@ -1,0 +1,15 @@
+Name: MergeDictionary - Merge all definitions of a dictionary with the current dicitonary.
+
+Synopsis:
+
+dict MergeDictionary ->	-
+
+
+SeeAlso:
+
+SaveDictionary
+RestoreDictionary
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/FormattedIO.sli

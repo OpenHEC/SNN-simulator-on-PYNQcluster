@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: music_cont_out_proxy</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: music_cont_out_proxy</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Name:</b><pre>music_cont_out_proxy - A device which sends continuous data from NEST to  <br/>  MUSIC.</pre>
+<b>Description: </b>
+<pre>A music_cont_out_proxy can be used to send continuous data from  <br/>  neurons over MUSIC to remote applications. It works in a similar fashion like  <br/>  the multimeter model. The user has to specify the recordable values to observe  <br/>  (e.g. ["V_m"]) via the record_from parameter. The target neurons are specified  <br/>  by a list of global neuron ids which must be passed via the "targets"  <br/>  parameter. The music_cont_out_proxy will be connected automatically to the  <br/>  specified target neurons. It is not possible to apply further changes to the  <br/>  list of target neurons or observed quantities once the simulation has been  <br/>  started for the first time.  <br/>   <br/>  In case of multiple recordables the data can be read out (PyNEST only) of the  <br/>  receiving buffer via the following access pattern:  <br/>   <br/>  buffer[ target_gid_index ][ recordable_index] = buffer[ target_gid_index *  <br/>  record_from.size() + recordable_index ]  <br/>  For example:  target_gids = [ 2, 5, 4 ], record_from = ["V_m"] and  <br/>  we want to get "V_m" for neuron with GID 5: buffer[ 1*1 + 0 ]  <br/>   <br/>  
+</pre>
+<b>Parameters: </b>
+<pre> <br/>  The following properties are available in the status dictionary:  <br/>   <br/>  interval	 double  	- Recording interval in milliseconds  <br/>  targets	 array  	- Global id list of neurons to be observed  <br/>  port_name   string  	- The name of the MUSIC output port to send to  <br/>  (default: cont_out)  <br/>  port_width   integer 	- The width of the MUSIC input port  <br/>  published   bool		- A bool indicating if the port has been already  <br/>  published with MUSIC. Read only property.  <br/>  record_from  array  	- Array containing the names of variables to record  <br/>  from, obtained from the /recordables entry of the  <br/>  model from which one wants to record  <br/>   <br/>  
+</pre>
+<b>Require: </b>
+<pre>HAVE_MUSIC  <br/>  
+</pre>
+<b>Availability: </b>
+<pre>Only when compiled with MPI and MUSIC  <br/>   <br/>  
+</pre>
+<b>Author: </b>
+<pre>Martin Asghar Schulze, Forschungszentrum fur Informatik Karlsruhe (FZI)  <br/>  
+</pre>
+<b>FirstVersion: </b>
+<pre>March 2016  <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/music_cont_in_proxy.html">music_cont_in_proxy</a></li>
+    <li><a href="../cc/music_event_out_proxy.html">music_event_out_proxy</a></li>
+    <li><a href="../cc/music_event_in_proxy.html">music_event_in_proxy</a></li>
+    <li><a href="../cc/music_message_in_proxy.html">music_message_in_proxy</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/models/music_cont_out_proxy.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

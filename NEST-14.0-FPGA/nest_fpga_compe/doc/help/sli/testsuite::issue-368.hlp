@@ -1,0 +1,24 @@
+Synopsis:
+
+(issue-368) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that models with precise timing handle input spikes 
+arriving at exactly the same times correctly.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+FirstVersion:
+
+August 2017
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-368.sli

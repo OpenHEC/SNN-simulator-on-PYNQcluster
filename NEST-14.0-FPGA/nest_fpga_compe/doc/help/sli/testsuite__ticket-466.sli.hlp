@@ -1,0 +1,25 @@
+Name: testsuite::ticket-466.sli - test if mirollo_strogatz_ps can handle simultaneous inputs
+
+Synopsis:
+
+(ticket-466.sli) run -> dies if assertion fails
+
+
+Description:
+
+Feeds mirollo_strogatz_ps two simultaneous inputs, triggers assertion per r8864.
+
+
+Author:
+
+Plesser
+
+
+FirstVersion:
+
+2010-10-05
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/ticket-466.sli

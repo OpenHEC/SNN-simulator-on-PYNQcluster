@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: siegert_neuron</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: siegert_neuron</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Description: </b>
+<pre> <br/>   <br/>  siegert_neuron is an implementation of a rate model with the  <br/>  non-linearity given by the gain function of the  <br/>  leaky-integrate-and-fire neuron with delta or exponentially decaying  <br/>  synapses [2] and [3, their eq. 25]. The model can be used for a  <br/>  mean-field analysis of spiking networks.  <br/>   <br/>  The model supports connections to other rate models with zero  <br/>  delay, and uses the secondary_event concept introduced with the  <br/>  gap-junction framework.  <br/>   <br/>  
+</pre>
+<b>Parameters: </b>
+<pre> <br/>   <br/>  The following parameters can be set in the status dictionary.  <br/>   <br/>  rate	 double	- Rate (1/s)  <br/>  tau	 double	- Time constant in ms.  <br/>  mean	 double	- Additional constant input  <br/>   <br/>  The following parameters can be set in the status directory and are  <br/>  used in the evaluation of the gain function. Parameters as in  <br/>  iaf_psc_exp/delta.  <br/>   <br/>  tau_m	 double	- Membrane time constant in ms.  <br/>  tau_syn	 double	- Time constant of postsynaptic currents in ms.  <br/>  t_ref	 double	- Duration of refractory period in ms.  <br/>  theta	 double	- Threshold relative to resting potential in mV.  <br/>  V_reset	 double	- Reset relative to resting membrane potential in  <br/>  mV.  <br/>   <br/>  Notes:  <br/>   <br/>  
+</pre>
+<b>Require: </b>
+<pre>HAVE_GSL  <br/>  
+</pre>
+<b>Receives: </b>
+<pre>DiffusionConnectionEvent, DataLoggingRequest  <br/>   <br/>  
+</pre>
+<b>Sends: </b>
+<pre>DiffusionConnectionEvent  <br/>   <br/>  
+</pre>
+<b>References: </b>
+<pre> <br/>   <br/>  [1] Hahne, J., Dahmen, D., Schuecker, J., Frommer, A.,  <br/>  Bolten, M., Helias, M. and Diesmann, M. (2017).  <br/>  Integration of Continuous-Time Dynamics in a  <br/>  Spiking Neural Network Simulator.  <br/>  Front. Neuroinform. 11:34. doi: 10.3389/fninf.2017.00034  <br/>   <br/>  [2] Fourcaud, N and Brunel, N. (2002). Dynamics of the firing  <br/>  probability of noisy integrate-and-fire neurons, Neural computation,  <br/>  14:9, pp 2057--2110  <br/>   <br/>  [3] Schuecker, J., Diesmann, M. and Helias, M. (2015).  <br/>  Modulated escape from a metastable state driven by colored noise.  <br/>  Physical Review E 92:052119  <br/>   <br/>  [4] Hahne, J., Helias, M., Kunkel, S., Igarashi, J.,  <br/>  Bolten, M., Frommer, A. and Diesmann, M. (2015).  <br/>  A unified framework for spiking and gap-junction interactions  <br/>  in distributed neuronal network simulations.  <br/>  Front. Neuroinform. 9:22. doi: 10.3389/fninf.2015.00022  <br/>   <br/>  
+</pre>
+<b>Author: </b>
+<pre>Jannis Schuecker, David Dahmen, Jan Hahne  <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/diffusion_connection.html">diffusion_connection</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/models/siegert_neuron.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

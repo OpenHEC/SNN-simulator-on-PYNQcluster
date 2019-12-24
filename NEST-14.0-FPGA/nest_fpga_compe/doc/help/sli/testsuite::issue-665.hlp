@@ -1,0 +1,27 @@
+Synopsis:
+
+(issue-665) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that ConnectLayers correctly handles devices with thread 
+siblings as sources and targets.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+FirstVersion:
+
+February 2017
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-665.sli

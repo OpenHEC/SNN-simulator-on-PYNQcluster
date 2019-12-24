@@ -1,0 +1,28 @@
+Synopsis:
+
+(issue-737) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that NEST raises an error if the user tries to 
+set synapse parameters that cannot be set with Connect calls.
+
+
+Author:
+
+Stine B. Vennemo
+
+
+FirstVersion:
+
+May 2017
+
+
+SeeAlso:
+
+testsuite::issue-735
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/issue-737.sli

@@ -1,0 +1,27 @@
+Synopsis:
+
+(issue-708) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that CopyModel works with connection 
+types which use secondary events.
+
+
+Author:
+
+Jan Hahne
+
+
+FirstVersion:
+
+April 2017
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-708.sli

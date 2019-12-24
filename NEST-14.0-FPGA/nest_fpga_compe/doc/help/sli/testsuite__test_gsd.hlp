@@ -1,0 +1,27 @@
+Name: testsuite::test_gsd - Test global spike detector with pure MPI parallelism
+
+Synopsis:
+
+nest_indirect test_gsd.sli ->	-
+
+
+Description:
+
+This script tests the gsd spike detector scheme by comparing the 
+output of 2 poisson generators on 2 MPI procs run in conventional mode 
+to the output on 3 MPI procs run in gsd mode.
+
+
+Author:
+
+Kunkel, Schmidt
+
+
+FirstVersion:
+
+February 2014
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/mpitests/test_gsd.sli

@@ -1,0 +1,28 @@
+Synopsis:
+
+(issue-707) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that the weight of gap junctions can 
+be recorded with the weight_recorder (thus that SecondaryEvents 
+have a properly set time stamp).
+
+
+Author:
+
+Jan Hahne
+
+
+FirstVersion:
+
+April 2017
+
+
+SeeAlso:
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-707.sli

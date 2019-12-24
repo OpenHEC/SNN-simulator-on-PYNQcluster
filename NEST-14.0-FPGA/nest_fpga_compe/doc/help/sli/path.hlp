@@ -1,0 +1,10 @@
+Name: path - Return current search path as array
+
+SeeAlso:
+
+addpath
+setpath
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/sli-init.sli

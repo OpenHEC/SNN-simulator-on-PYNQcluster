@@ -1,0 +1,25 @@
+Synopsis:
+
+(issue-740) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that step_current_generator can only be parameterized 
+with amplitude_times that are strictly increasing after conversion to 
+time steps.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+FirstVersion:
+
+August 2017
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-740.sli

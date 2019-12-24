@@ -1,0 +1,21 @@
+Name: testsuite::issue-351 - Ensure Connect raises exception if connecting to device with unusable rule
+
+Synopsis:
+
+(issue-351) run -> NEST exits if test fails
+
+
+Description:
+
+This test makes sure that connections to devices without proxies are 
+prohibited for probabilistic connection rules.
+
+
+Author:
+
+Hans Ekkehard Plesser, 2016-11-22
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/regressiontests/issue-351.sli

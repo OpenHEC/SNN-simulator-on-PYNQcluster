@@ -1,0 +1,10 @@
+Name: cycles - return the number of elapsed interpreter cycles
+
+Synopsis:
+
+cycles -> n
+
+
+Source:
+
+/home/xilinx/nest_fpga_compe/sli/slicontrol.cc

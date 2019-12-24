@@ -1,0 +1,21 @@
+Name: testsuite::issue-311 - Ensure NEST behaves well after exception during update
+
+Synopsis:
+
+(issue-311) run -> NEST exits if test fails
+
+
+Description:
+
+This test ensures that NEST behaves properly when a model triggers and 
+exception during update.
+
+
+Author:
+
+Hans Ekkehard Plesser, 2016-11-02
+
+
+Source:
+
+/home/linaro/nest-simulator-2.14.0_2mp_0713/testsuite/regressiontests/issue-311.sli

@@ -1,0 +1,27 @@
+Name: testsuite::test_all_to_all - Test correct connection with many targets
+
+Synopsis:
+
+(test_all_to_all) run ->	-
+
+
+Description:
+
+test_all_to_all.sli checks that all-to-all connections are created 
+correctly if the number of targets exceeds the number of local nodes.
+
+
+Author:
+
+Hans Ekkehard Plesser
+
+
+SeeAlso:
+
+testsuite::test_one_to_one
+testsuite::test_fixed_indegree
+testsuite::test_pairwise_bernoulli
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/mpitests/test_all_to_all.sli

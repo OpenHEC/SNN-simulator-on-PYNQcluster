@@ -1,0 +1,9 @@
+Name: break - interrupt the execution of a procedure for inspection
+
+SeeAlso:
+
+continue
+
+Source:
+
+/home/xilinx/nest_fpga_compe/lib/sli/debug.sli

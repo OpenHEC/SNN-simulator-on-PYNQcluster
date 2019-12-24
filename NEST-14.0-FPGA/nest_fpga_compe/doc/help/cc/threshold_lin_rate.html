@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: threshold_lin_rate</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: threshold_lin_rate</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Name:</b><pre>threshold_lin_rate - rate model with threshold-linear gain function</pre>
+<b>Description: </b>
+<pre> <br/>   <br/>  threshold_lin_rate is an implementation of a non-linear rate model with either  <br/>  input (threshold_lin_rate_ipn) or output noise (threshold_lin_rate_opn) and  <br/>  gain  <br/>  function  <br/>  Phi(h) = g * (h-theta) * H(h-theta) and Psi(h) = h for linear_summation = True  <br/>  Phi(h) = h and Psi(h) = g * (h-theta) * H(h-theta) for linear_summation = False  <br/>  with Heaviside function H.  <br/>   <br/>  The model supports connections to other rate models with either zero or  <br/>  non-zero delay, and uses the secondary_event concept introduced with  <br/>  the gap-junction framework.  <br/>   <br/>  
+</pre>
+<b>Parameters: </b>
+<pre> <br/>   <br/>  The following parameters can be set in the status dictionary.  <br/>   <br/>  rate	 double	- Rate (unitless)  <br/>  tau	 double	- Time constant of rate dynamics in ms.  <br/>  mean	 double	- Mean of Gaussian white noise.  <br/>  std	 double	- Standard deviation of Gaussian white noise.  <br/>  g	 double	- Gain parameter  <br/>  theta	 double	- Threshold  <br/>  linear_summation   boolean	- specifies type of non-linearity (see above)  <br/>   <br/>  Note:  <br/>  The boolean parameter linear_summation determines whether the  <br/>  input from different presynaptic neurons is first summed linearly and  <br/>  then transformed by a nonlinearity (true), or if the input from  <br/>  individual presynaptic neurons is first nonlinearly transformed and  <br/>  then summed up (false). Default is true.  <br/>   <br/>  
+</pre>
+<b>Receives: </b>
+<pre>InstantaneousRateConnectionEvent, DelayedRateConnectionEvent,  <br/>  DataLoggingRequest  <br/>   <br/>  
+</pre>
+<b>Sends: </b>
+<pre>InstantaneousRateConnectionEvent, DelayedRateConnectionEvent  <br/>   <br/>  
+</pre>
+<b>References: </b>
+<pre> <br/>   <br/>  [1] Hahne, J., Dahmen, D., Schuecker, J., Frommer, A.,  <br/>  Bolten, M., Helias, M. and Diesmann, M. (2017).  <br/>  Integration of Continuous-Time Dynamics in a  <br/>  Spiking Neural Network Simulator.  <br/>  Front. Neuroinform. 11:34. doi: 10.3389/fninf.2017.00034  <br/>   <br/>  [2] Hahne, J., Helias, M., Kunkel, S., Igarashi, J.,  <br/>  Bolten, M., Frommer, A. and Diesmann, M. (2015).  <br/>  A unified framework for spiking and gap-junction interactions  <br/>  in distributed neuronal network simulations.  <br/>  Front. Neuroinform. 9:22. doi: 10.3389/fninf.2015.00022  <br/>   <br/>  
+</pre>
+<b>Author: </b>
+<pre>David Dahmen, Jan Hahne, Jannis Schuecker  <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/rate_connection_instantaneous.html">rate_connection_instantaneous</a></li>
+    <li><a href="../cc/rate_connection_delayed.html">rate_connection_delayed</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/models/threshold_lin_rate.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

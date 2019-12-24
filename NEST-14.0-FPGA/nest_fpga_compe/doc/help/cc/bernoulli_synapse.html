@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+    
+        <title>NEST Command Index: bernoulli_synapse</title>
+        <style type="text/css">
+            body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 15px 0 0 15px;
+}
+p {
+  padding-left: 15px;
+}
+a {
+  color: #339;
+  text-decoration: none;
+}
+a:visited {
+  color: #339;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+table.headerfooter {
+  margin: 20px 0 20px 0;
+  background-color: #eee;
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+table.commands {
+  margin: 15px 0 15px 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.commands td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px dotted #ccc;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+table.letteridx {
+  margin: 0;
+  background-color: #eee;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table.letteridx td {
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table.letteridx a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+td.left{
+    width:30%;
+}
+div.wrap {
+        padding-left: 15px;
+      }
+         </style>
+        </head>
+        <body>
+    <h1>Command: bernoulli_synapse</h1>
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+    <div class="wrap">
+    <!-- Begin -->
+    <b>Name:</b><pre>bernoulli_synapse - Static synapse with stochastic transmission.</pre>
+<b>Description: </b>
+<pre> <br/>  Spikes are transmitted by bernoulli_synapse following a Bernoulli trial with  <br/>  success probability p_transmit. This synaptic mechanism was inspired by the  <br/>  results described in [1] of greater transmission probability for stronger  <br/>  excitatory connections and it was previously applied in [2] and [3].  <br/>   <br/>  bernoulli_synapse does not support any kind of plasticity. It simply stores  <br/>  the parameters target, weight, transmission probability, delay and  <br/>  receiver port for each connection.  <br/>   <br/>  
+</pre>
+<b>Parameters: </b>
+<pre> <br/>  p_transmit double	- Transmission probability, must be between 0 and 1  <br/>   <br/>  
+</pre>
+<b>Transmits: </b>
+<pre>SpikeEvent, RateEvent, CurrentEvent, ConductanceEvent,  <br/>  DoubleDataEvent, DataLoggingRequest  <br/>   <br/>  
+</pre>
+<b>References: </b>
+<pre> <br/>   <br/>  [1] Sandrine Lefort, Christian Tomm, J.-C. Floyd Sarria, Carl C.H. Petersen,  <br/>  The Excitatory Neuronal Network of the C2 Barrel Column in Mouse Primary  <br/>  Somatosensory Cortex, Neuron, Volume 61, Issue 2, 29 January 2009, Pages  <br/>  301-316, DOI: 10.1016/j.neuron.2008.12.020.  <br/>   <br/>  [2] Jun-nosuke Teramae, Yasuhiro Tsubo & Tomoki Fukai, Optimal spike-based  <br/>  communication in excitable networks with strong-sparse and weak-dense links,  <br/>  Scientific Reports 2, Article number: 485 (2012), DOI: 10.1038/srep00485  <br/>   <br/>  [3] Yoshiyuki Omura, Milena M. Carvalho, Kaoru Inokuchi, Tomoki Fukai, A  <br/>  Lognormal Recurrent Network Model for Burst Generation during Hippocampal  <br/>  Sharp Waves, Journal of Neuroscience 28 October 2015, 35 (43) 14585-14601,  <br/>  DOI: 10.1523/JNEUROSCI.4944-14.2015 
+</pre>
+<b>Author: </b>
+<pre>Susanne Kunkel, Maximilian Schmidt, Milena Menezes Carvalho  <br/>   <br/>  
+</pre>
+<b>FirstVersion: </b>
+<pre>June 2017  <br/>  
+</pre>
+<b>SeeAlso: </b>
+<ul>
+    <li><a href="../cc/synapsedict.html">synapsedict</a></li>
+    <li><a href="../cc/static_synapse.html">static_synapse</a></li>
+    <li><a href="../cc/static_synapse_hom_w.html">static_synapse_hom_w</a></li>
+</ul>
+<b>Source:</b><pre>/home/xilinx/nest_fpga_compe/models/bernoulli_connection.h</pre>
+</div>
+    <!-- End -->
+    </div>
+
+
+    <table class="headerfooter">
+      <tbody><tr>
+        <td width="30%" align="center"><a href="../../index.html">
+            NEST HelpDesk</a></td>
+        <td width="30%" align="center"><a href="../helpindex.html">
+            Command Index</a></td>
+        <td width="30%" align="center"><a href="../../quickref.html">
+            NEST Quick Reference</a></td>
+      </tr>
+    </tbody></table>
+
+     <p style="text-align:center">
+    &copy; 2004 <a href="http://www.nest-initiative.org">The NEST Initiative</a>
+ </p>
+
+    </body>
+</html>

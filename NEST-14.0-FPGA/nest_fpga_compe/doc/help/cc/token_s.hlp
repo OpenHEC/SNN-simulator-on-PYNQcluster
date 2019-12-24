@@ -1,0 +1,16 @@
+Name: token_s - read a token from a string 
+ Synopsis:  string token_s -> post any true 
+ false
+
+References:
+
+The Red Book
+
+
+SeeAlso:
+
+token
+
+Source:
+
+/home/xilinx/nest_fpga_compe/sli/slicontrol.cc

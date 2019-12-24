@@ -1,0 +1,31 @@
+Name: testsuite::test_connect_array_all_to_all_mpi - SLI script to test connection with parameter arrays and connection rule all_to_all, with hybrid MPI and thread parallelism
+
+Synopsis:
+
+(test_connect_array_all_to_all_mpi) run
+
+
+Description:
+
+Tests with hybrid MPI and thread parallelism the possibility to use 
+parameter arrays to define connection weights and/or delays in conjunction 
+with the connection rules all_to_all
+
+
+Author:
+
+Bruno Golosio
+
+
+FirstVersion:
+
+November 2016
+
+
+SeeAlso:
+
+Connect
+
+Source:
+
+/home/xilinx/nest_fpga_compe/testsuite/mpitests/test_connect_array_all_to_all_mpi.sli
