@@ -1,5 +1,5 @@
 # SNN-simulator-on-PYNQcluster
-`Openhec lab，Jiangnan university``
+`Openhec lab，Jiangnan university`
 ## Introduction
 A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）  
 * Spiking neuron network simulator NEST  
