@@ -1,5 +1,23 @@
 # SNN-simulator-on-PYNQcluster
 A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
+## Quick Start
+ * petalinux 
+ * Install NEST-14.0-FPGA
+ * Install PYNN
+    _Installing PyNN requires_:
+    Python (version 2.7, 3.3-3.7)
+    a recent version of the NumPy package
+    the lazyarray package
+    the Neo package (>= 0.5.0)
+    at least one of the supported simulators: e.g. NEURON, NEST, or Brian.
+    _Optional dependencies_ are:
+    mpi4py (if you wish to run distributed simulations using MPI)
+    either Jinja2 or Cheetah (templating engines)
+    the CSA library
+    
+    pip install pyNN
+    References:http://neuralensemble.org/docs/PyNN/installation.html
+ 
 ## Repo organization
 The repo is organized as follows:
  * snn_object：Describes a new biologically plausible mechanism for generating intermediate-level visual representations using an          unsupervised learning scheme.
