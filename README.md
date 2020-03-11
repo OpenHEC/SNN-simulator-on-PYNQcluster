@@ -25,8 +25,10 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     `openmpi-bin \`  
     `libopenmpi-dev`
    * Configure NEST:  
- ```cd NEST-14.0-FPGA  
-    cmake -Dwith-python=3 -DCMAKE_INSTALL_PREFIX:PATH=./ </path/to/NEST/src>```  
+    ```
+    cd NEST-14.0-FPGA  
+    cmake -Dwith-python=3 -DCMAKE_INSTALL_PREFIX:PATH=./ </path/to/NEST/src>  
+    ```
    * Compile and install NEST:  
     `make`  
     `make install`  
