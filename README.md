@@ -3,7 +3,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Quick Start
  * Petalinux
  * Install NEST-14.0-FPGA  
-   * Configure NEST: 
+   * Configure NEST:  
     `sudo apt-get install -y \`  
     `cython \`  
     `libgsl-dev \`  
@@ -17,7 +17,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     `python-nose \`  
     `openmpi-bin \`  
     `libopenmpi-dev`
-   * Configure NEST:
+   * Configure NEST:  
     `cd NEST-14.0-FPGA`  
     `cmake -Dwith-python=3 -DCMAKE_INSTALL_PREFIX:PATH=</install/path> </path/to/NEST/src>`  
    * Compile and install NEST:  
