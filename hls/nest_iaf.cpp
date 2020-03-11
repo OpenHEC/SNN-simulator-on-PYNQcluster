@@ -1,6 +1,7 @@
 #include "ap_int.h"
 #include "stdint.h"
 #include "hls_stream.h"
+#include <string.h>
 ///AXI
 #define AXI_SIZE 64
 #define AXI_SIZE_32 32
