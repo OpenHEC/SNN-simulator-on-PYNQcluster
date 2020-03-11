@@ -3,7 +3,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Repo organization
 The repo is organized as follows:
  * snn_object：Describes a new biologically plausible mechanism for generating intermediate-level visual representations using an          unsupervised learning scheme.
- * NEST-14.0-FPGA：mplemention Spiking neural network simulator NEST on FPGA cluster
+ * NEST-14.0-FPGA：implemention Spiking neural network simulator NEST on FPGA cluster
 ## NEST  
 NEST Simulation:http://www.nest-simulator.org  
 NEST-github：https://github.com/nest/nest-simulator  
