@@ -59,6 +59,17 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     pip install pyNN    
     ```
     * References:http://neuralensemble.org/docs/PyNN/installation.html  
+ * Run snn_object:
+    * 1 PYNQ node:
+     ```
+    cd snn_object
+    python3 dump-c1-spikes.py --training-dir airplanes_10_6 --dataset-label train
+    ```
+    * 8 PYNQ node:
+    ```
+    mpirun -n 8 -machinefile ./machinefile python3 dump-c1-spikes.py --training-dir airplanes_10_6 --dataset-label train
+    ````
+   others commond: https://github.com/roberthangu/snn_object_recognition 
 ## Repo organization
 The repo is organized as follows:
  * snn_object：Describes a new biologically plausible mechanism for generating intermediate-level visual representations using an          unsupervised learning scheme.
