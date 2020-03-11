@@ -47,8 +47,8 @@ The repo is organized as follows:
  * NEST-14.0-FPGA：implemention Spiking neural network simulator NEST on FPGA cluster
 ## References
 ### NEST  
-NEST Simulation:http://www.nest-simulator.org  
-NEST-github：https://github.com/nest/nest-simulator  
+NEST is a simulator for spiking neural network models, ideal for networks of any size.
+NEST Simulation:http://www.nest-simulator.org    
 NEST-14.0 github：https://github.com/nest/nest-simulator/releases/tag/v2.14.0  
 
 ### pyNN  
