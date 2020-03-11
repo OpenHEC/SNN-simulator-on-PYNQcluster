@@ -1,7 +1,7 @@
 # SNN-simulator-on-PYNQcluster
 A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Quick Start
- * petalinux
+ * Petalinux
  * Install NEST-14.0-FPGA  
    * Configure NEST: 
     `sudo apt-get install -y \`  
