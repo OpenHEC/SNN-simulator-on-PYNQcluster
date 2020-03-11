@@ -1,5 +1,5 @@
 # SNN-simulator-on-PYNQcluster
-`Openhec lab，Jiangnan university`
+Openhec lab，Jiangnan university
 ## Introduction
 A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）  
 * Spiking neuron network simulator NEST  
@@ -55,7 +55,9 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     the CSA library  
     ```
     * Install PyNN:  
+    ```
     pip install pyNN    
+    ```
     * References:http://neuralensemble.org/docs/PyNN/installation.html  
 ## Repo organization
 The repo is organized as follows:
