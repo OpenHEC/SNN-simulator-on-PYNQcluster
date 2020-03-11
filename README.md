@@ -3,7 +3,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Quick Start
  * Petalinux
  * Install NEST-14.0-FPGA  
-   * Configure NEST:  
+   * Installing PyNN requires:  
     `sudo apt-get install -y \`  
     `cython \`  
     `libgsl-dev \`  
@@ -27,13 +27,13 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     `source </path/to/nest_install_dir>/bin/nest_vars.sh`  
    * References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
  * Install PYNN  
-   * Installing PyNN requires_:    
+   * Installing PyNN requires:    
     `Python (version 2.7, 3.3-3.7)`  
     `a recent version of the NumPy package`  
     `the lazyarray package`  
     `the Neo package (>= 0.5.0)`  
     `at least one of the supported simulators: e.g. NEURON, NEST, or Brian.`  
-   * Optional dependencies_ are:    
+   * Optional dependencies are:    
     `mpi4py (if you wish to run distributed simulations using MPI)`  
     `either Jinja2 or Cheetah (templating engines)`  
     `the CSA library`  
