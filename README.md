@@ -10,44 +10,52 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Quick Start
  * Petalinux
  * Install NEST-14.0-FPGA  
-   * Installing PyNN requires:  
-    `sudo apt-get install -y \`  
-    `cython \  
-    `libgsl-dev \`  
-    `libltdl-dev \`  
-    `libncurses-dev \`  
-    `libreadline-dev \`  
-    `python-all-dev \`  
-    `python-numpy \`  
-    `python-scipy \`  
-    `python-matplotlib \`  
-    `python-nose \`  
-    `openmpi-bin \`  
-    `libopenmpi-dev`
+   * Installing PyNN requires: 
+   ```
+    sudo apt-get install -y \  
+    cython \  
+    libgsl-dev \  
+    libltdl-dev \  
+    libncurses-dev \  
+    libreadline-dev \  
+    python-all-dev \  
+    python-numpy \  
+    python-scipy \  
+    python-matplotlib \  
+    python-nose \  
+    openmpi-bin \  
+    libopenmpi-dev
+    ```
    * Configure NEST:  
     ```
     cd NEST-14.0-FPGA  
     cmake -Dwith-python=3 -DCMAKE_INSTALL_PREFIX:PATH=./ </path/to/NEST/src>  
     ```
    * Compile and install NEST:  
-    `make`  
-    `make install`  
-    `make installcheck`  
-    `source </path/to/nest_install_dir>/bin/nest_vars.sh`  
+    ```
+    make  
+    make install  
+    make installcheck  
+    source </path/to/nest_install_dir>/bin/nest_vars.sh  
+   ```
    * References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
  * Install PYNN  
    * Installing PyNN requires:    
-    `Python (version 2.7, 3.3-3.7)`  
-    `a recent version of the NumPy package`  
-    `the lazyarray package`  
-    `the Neo package (>= 0.5.0)`  
-    `at least one of the supported simulators: e.g. NEURON, NEST, or Brian.`  
+    ```
+    Python (version 2.7, 3.3-3.7)  
+    a recent version of the NumPy package  
+    the lazyarray package  
+    the Neo package (>= 0.5.0)  
+    at least one of the supported simulators: e.g. NEURON, NEST, or Brian.  
+   ```
    * Optional dependencies are:    
-    `mpi4py (if you wish to run distributed simulations using MPI)`  
-    `either Jinja2 or Cheetah (templating engines)`  
-    `the CSA library`  
+    ```
+    mpi4py (if you wish to run distributed simulations using MPI)  
+    either Jinja2 or Cheetah (templating engines)  
+    the CSA library  
+    ```
     * Install PyNN:  
-    `pip install pyNN`    
+    pip install pyNN    
     * References:http://neuralensemble.org/docs/PyNN/installation.html  
 ## Repo organization
 The repo is organized as follows:
