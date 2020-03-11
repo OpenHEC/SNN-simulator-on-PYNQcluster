@@ -2,7 +2,8 @@
 A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 ## Quick Start
  * petalinux
- * Install NEST-14.0-FPGA
+ * Install NEST-14.0-FPGA  
+
  * Install PYNN  
     **Installing PyNN requires_:**    
     Python (version 2.7, 3.3-3.7)  
@@ -15,7 +16,8 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     either Jinja2 or Cheetah (templating engines)  
     the CSA library  
     
-    '''pip install pyNN'''  
+    **Install PyNN:**  
+    ```pip install pyNN```    
     References:http://neuralensemble.org/docs/PyNN/installation.html
  
 ## Repo organization
