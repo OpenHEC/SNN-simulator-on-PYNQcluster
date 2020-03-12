@@ -1,7 +1,7 @@
 # PetaLinux
 Ubuntu 16.04 with Vivado v2018.2 and PetaLinux 2018.2
 ## Prepare for Petalinux
-First, make sure that you have installed PetaLinux and Vivado in Ubuntu 16.04(See the official Xilinx manual and User Guide or just google or bing it) . After you have installed PetaLinux and Vivado, you should source related settings.sh in order to use petalinux and cross-compiler tool-chain in shell. like these two cmds: source /opt/pkg/petalinux/settings.sh and source /opt/Xilinx/Vivado/2018.2/settings64.sh. Then, copy two files (hardware description file design_1_wrapper.hdf and bitstream file design_1_wrapper.bit that generated from Vivado project)to one directory.  
+First, make sure that you have installed PetaLinux and Vivado in Ubuntu 16.04. After you have installed PetaLinux and Vivado, you should source related settings.sh in order to use petalinux and cross-compiler tool-chain in shell. like these two cmds: **source /opt/pkg/petalinux/settings.sh** and **source /opt/Xilinx/Vivado/2018.2/settings64.sh**. Then, copy two files (hardware description file **design_1_wrapper.hdf** and bitstream file **design_1_wrapper.bit** that generated from Vivado project)to one directory.  
 ## Create PetaLinux Project and modify the Device-tree to reserve memory
 Use petalinux-create cmd to create one petalinux project. If you dont know how to create one project, you can type **petalinux-create -h or --help** to get help and more informations. Here, I just type **petalinux-create -t project -n nest_laf --template zynq** to create a petalinux project named nest_laf. Then, **cd nest_laf/project-spec/meta-user/recipes-bsp/device-tree/files/** to find the **system-user.dtsi** and modify it like below:
 ```
