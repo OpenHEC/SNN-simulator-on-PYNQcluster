@@ -29,6 +29,7 @@ reference:https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841683/Linux+R
 ## Config project with .hdf file
 Third, back to the project directory nest_iaf/, and use type this cmd to initilize your project: **petalinux-config --get-hw-description DIR_where_you_put_the_design_1_wrapper.hdf**. Then, it will come to one menu like below:  
 Here, I like to set rootfs from SD card. So that, the files that you used can be saved in SD card when you power-off it. And, then save configuraiton and exit.   
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/petalinux/hdf_config.jpg)
 ## Further config or build project
 If you have other configuraitons, you can use **petalinux-config** or **petalinux-config -c XXX** to further config this project. More informations are available in petalinux-config -h. After configuraiotn, you can type **petalinux-build** to build the whole project. After that, type **petalinux-package -boot --fsbl image/linux/zynq_fsbl.elf --fpga --u-boot --force** to generate BOOT.BIN. Finally, you will get three files for petalinux: BOOT.BIN, image.ub and rootfs.cpio.  
 ## Partition SD Card and unzip rootfs
