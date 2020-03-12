@@ -69,6 +69,8 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
     ```
     mpirun -n 8 -machinefile ./machinefile python3 dump-c1-spikes.py --training-dir airplanes_10_6 --dataset-label train
     ````
+    * 1 node jupyter notebook run:
+    dump_c1_spikes.ipynb
    others commond: https://github.com/roberthangu/snn_object_recognition 
 ## Repo organization
 The repo is organized as follows:
