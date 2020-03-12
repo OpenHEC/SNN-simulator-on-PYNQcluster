@@ -74,7 +74,9 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 The repo is organized as follows:
  * snn_object：Describes a new biologically plausible mechanism for generating intermediate-level visual representations using an          unsupervised learning scheme.
    * iaf_psc_exp.bin：LIF NEURON bitstream
- * NEST-14.0-FPGA：implemention Spiking neural network simulator NEST on FPGA cluster
+ * NEST-14.0-FPGA：implemention Spiking neural network simulator NEST on FPGA cluster  
+ * hls: NEST LIF Neuron accelerator implemented in vivado HLS 2018.2.  
+ * vivado: creating vivado project to get block_design.tcl and bitstream.
 ## References
 ### NEST  
 NEST is a simulator for spiking neural network models, ideal for networks of any size.  
