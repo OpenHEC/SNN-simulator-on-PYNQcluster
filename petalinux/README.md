@@ -32,5 +32,6 @@ Here, I like to set rootfs from SD card. So that, the files that you used can be
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/petalinux/hdf_config.jpg)
 ## Further config or build project
 If you have other configuraitons, you can use **petalinux-config** or **petalinux-config -c XXX** to further config this project. More informations are available in petalinux-config -h. After configuraiotn, you can type **petalinux-build** to build the whole project. After that, type **petalinux-package -boot --fsbl image/linux/zynq_fsbl.elf --fpga --u-boot --force** to generate BOOT.BIN. Finally, you will get three files for petalinux: BOOT.BIN, image.ub and rootfs.cpio.  
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/petalinux/package.jpg)
 ## Partition SD Card and unzip rootfs
 Just use Disks tool in ubuntu to partition SD card into two file systems: one FAT and one EXT4. Copy BOOT.BIN and image.ub into FAT file system and copy rootfs.cpio into EXT4 fs.(If you meet permission denied, use sudo). In EXT4 fs, type cmd **sudo pax -rvf rootfs.cpio** to unzip the rootfs. Then, umount EXT4 and FAT. Here, the Petalinux has been implemented.  
