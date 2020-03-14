@@ -8,6 +8,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 * MPI communication between PYNQ  
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png)
 ## Quick Start
+ * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click here
  * Petalinux  
  https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/tree/master/petalinux
  * Install NEST-14.0-FPGA  
