@@ -81,6 +81,7 @@ The repo is organized as follows:
  * NEST-14.0-FPGA：implemention Spiking neural network simulator NEST on FPGA cluster  
  * hls: NEST LIF Neuron accelerator implemented in vivado HLS 2018.2.  
  * vivado: creating vivado project to get block_design.tcl and bitstream.
+ * NEST_PYNQ_Jupyter: An example of image classification based on Jupyter Notebook on PYNQ.
 ## References
 ### NEST  
 NEST is a simulator for spiking neural network models, ideal for networks of any size.  
