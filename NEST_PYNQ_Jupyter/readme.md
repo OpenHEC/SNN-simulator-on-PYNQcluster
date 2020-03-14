@@ -64,7 +64,7 @@ You can change these parameters, make sure path is right，and then run. This wi
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/11.png)
 
-* ll_** error occurs and changes ll_** to hl_** in pynn's error file path. PyNN may have some errors, which can be found by going to the NEST website and retrieving the error information.
+* ll_** error occurs and changes ll_** to hl_** in pynn's error file path. PyNN may have some errors, which can be found by going to the NEST official website and retrieving the error information.
 
 Run the dump-c1-spikes_validation.ipynb using a similar operation. Finally, the following two files are generated
 
