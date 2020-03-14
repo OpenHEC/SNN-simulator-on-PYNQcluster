@@ -1,5 +1,5 @@
 # Run the NEST on Jupyter notebook in PYNQ
-If you want to run NEST on Jupyter notebook of PYNQ, you can refer to the following steps to execute.
+If you want to run NEST on Jupyter notebook of PYNQ, you can refer to the following steps to execute.An example of image classification is run below.
 ## Install NEST
 ### Install NEST requires
     sudo apt-get install -y cython libgsl-dev libltdl-dev libncurses-dev libreadline-dev python3-all-dev python3-numpy python3-scipy python3-matplotlib python3-nose openmpi-bin libopenmpi-dev
@@ -43,7 +43,7 @@ Install cython higher than 0.28.5,these will take a long time.
     !git clone https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster.git
     
 ### snn_object_recognition
-Enter NEST_PYNQ_Jupyter folder.
+Enter NEST_PYNQ_Jupyter -> snn_object_recognition.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/7.png)
 
@@ -54,5 +54,12 @@ Enter NEST_PYNQ_Jupyter folder.
 * The labels of the images should also be changed.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/9.png)
+
+## Picture classification
+* Open dump-c1-spikes_train.ipynb, copy the nest installation path </nest/install/path/> to here. You can change these parameters, make sure path is right，and then run. This will take a lot of time.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/10.png)
+
+ll_** error occurs and changes ll_** to hl_** in pynn's error file path. PyNN may have some errors, which can be found by going to the NEST website and retrieving the error information.
 
 
