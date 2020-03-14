@@ -1,17 +1,7 @@
 * Install NEST requires:
-sudo apt-get install -y \
-cython \
-libgsl-dev \
-libltdl-dev \
-libncurses-dev \
-libreadline-dev \
-python3-all-dev \
-python3-numpy \
-python3-scipy \
-python3-matplotlib \
-python3-nose \
-openmpi-bin \
-libopenmpi-dev
+
+sudo apt-get install -y cython libgsl-dev libltdl-dev libncurses-dev libreadline-dev python3-all-dev python3-numpy python3-scipy python3-matplotlib python3-nose openmpi-bin libopenmpi-dev
+
 In this project, we use nest-simulator-2.14, you can download it at https://github.com/nest/nest-simulator/releases/tag/v2.14.0
 * Unpack the tarball
 
