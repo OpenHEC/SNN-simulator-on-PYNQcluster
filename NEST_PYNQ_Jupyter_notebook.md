@@ -1,4 +1,4 @@
-1. Install NEST requires:
+* Install NEST requires:
 sudo apt-get install -y \
 cython \
 libgsl-dev \
