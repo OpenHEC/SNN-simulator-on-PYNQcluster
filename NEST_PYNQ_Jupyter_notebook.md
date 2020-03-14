@@ -16,6 +16,6 @@ In this project, we use nest-simulator-2.14, you can download it at https://gith
     source </path/to/nest_install_dir>/bin/nest_vars.sh
 ### In the terminal type:
     python3
-Once in Python you can type:
+  Once in Python you can type:
     import nest
-The following picture appears to prove that the installation was successful.
+  The following picture appears to prove that the installation was successful.
