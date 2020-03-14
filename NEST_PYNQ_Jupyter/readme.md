@@ -20,3 +20,4 @@ In this project, we use nest-simulator-2.14, you can download it at https://gith
 Once in Python you can type
     import nest
 The following picture appears to prove that the installation was successful.
+![image]https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/1.png
