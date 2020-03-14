@@ -14,8 +14,10 @@ openmpi-bin \
 libopenmpi-dev
 In this project, we use nest-simulator-2.14, you can download it at https://github.com/nest/nest-simulator/releases/tag/v2.14.0
 * Unpack the tarball
+
 tar -xzvf nest-simulator-2.14.tar.gz
 * Create a build directory:
+
 mkdir nest
 * Configure NEST:
 cd nest-simulator-2.14 
