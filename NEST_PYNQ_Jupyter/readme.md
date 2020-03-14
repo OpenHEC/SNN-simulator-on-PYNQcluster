@@ -82,7 +82,7 @@ Next, open dump-c2-spikes.ipynb, change corresponding file path, run this file.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/15.png)
 
-The last step, open classify-images.ipynb, change corresponding file path, run this file.At the end of run, you can get the result. At the same time, the corresponding file will be generated in log_final folder.
+The last step, open classify-images.ipynb, change corresponding file path, run this file. At the end of run, you can get the result. At the same time, the corresponding file will be generated in log_final folder.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/17.png)
 
