@@ -69,3 +69,23 @@ You can change these parameters, make sure path is right，and then run. This wi
 Run the dump-c1-spikes_validation.ipynb using a similar operation. Finally, the following two files are generated
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/12.png)
+
+Open learn-features.ipynb, set the path to the generated c1_dumpfile, run this file.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/13.png)
+
+At the end of the run, it will be generated weights in S2_weights folder.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/14.png)
+
+Next, open dump-c2-spikes.ipynb, change corresponding file path, run this file.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/15.png)
+
+The last step, open classify-images.ipynb, change corresponding file path, run this file.At the end of run, you can get the result. At the same time, the corresponding file will be generated in log_final folder.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/17.png)
+
+This example only uses 20 images as a demonstration, and you can add images to the dataset for better results.
+
+
