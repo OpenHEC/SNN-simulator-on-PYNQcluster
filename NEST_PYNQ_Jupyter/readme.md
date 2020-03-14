@@ -23,9 +23,9 @@ In this project, we use nest-simulator-2.14, you can download it at https://gith
     import nest
 The following picture appears to prove that the installation was successful.
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/1.png)
-References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
+* References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
 ## Install dependent libraries
-###Enter jupyter notebook，create a new file
+### Create a new file
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/2.png)
 ### Install the dependency library in the newly created file
     !pip3 install PyNN
