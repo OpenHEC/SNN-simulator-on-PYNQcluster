@@ -34,15 +34,25 @@ Enter jupyter notebook，create a new file.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/3.png)
 
-Install cython higher than 0.28.5.
+Install cython higher than 0.28.5,these will take a long time.
 
     !pip3 install cython==0.28.5
     !pip3 install scikit-learn
-    
-These will take a long time.
+
 ### Download file
     !git clone https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster.git
     
-Enter snn_object_recognition folder.
+### snn_object_recognition
+Enter NEST_PYNQ_Jupyter folder.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/7.png)
+
+* In these folder , you can use others images , make sure the image size is constant.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/8.png)
+
+* The labels of the images should also be changed.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/9.png)
+
+
