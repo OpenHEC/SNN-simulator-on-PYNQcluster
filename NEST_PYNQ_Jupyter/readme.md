@@ -1,5 +1,5 @@
-# Run the NEST on Jupyter notebook in PYNQ
-If you want to run NEST on Jupyter notebook of PYNQ, you can refer to the following steps to execute.An example of image classification is run below.
+# Run the NEST on Jupyter Notebook in PYNQ
+If you want to run NEST on Jupyter Notebook of PYNQ, you can refer to the following steps to execute.An example of image classification is run below.
 ## Install NEST
 ### Install NEST requires
     sudo apt-get install -y cython libgsl-dev libltdl-dev libncurses-dev libreadline-dev python3-all-dev python3-numpy python3-scipy python3-matplotlib python3-nose openmpi-bin libopenmpi-dev
@@ -89,3 +89,11 @@ The last step, open classify-images.ipynb, change corresponding file path, run t
 This example only uses 20 images as a demonstration, and you can add images to the dataset for better results.
 
 
+## More Example
+If you want to run more NEST examples in PYNQ, you can download them in https://nest-simulator.readthedocs.io/en/stable/examples/index.html. Add the nest file path in the references section of these examples and it will work.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/18.png)
+
+This is the result of the hpc_benchmark.ipynb.
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/19.png)
