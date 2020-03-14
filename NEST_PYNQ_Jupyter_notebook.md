@@ -8,7 +8,7 @@
 ### Configure NEST
     cd nest-simulator-2.14 
     cmake -Dwith-python=3 -DCMAKE_INSTALL_PREFIX:PATH=</nest/install/path/> ./
-  (/install/path is very important, we will use it later)
+  /install/path is very important, we will use it later
 ### Compile and install NEST
     make
     make install
