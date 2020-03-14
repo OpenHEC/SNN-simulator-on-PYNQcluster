@@ -90,7 +90,7 @@ This example only uses 20 images as a demonstration, and you can add images to t
 
 
 ## More Example
-If you want to run more NEST examples in PYNQ, you can download them in https://nest-simulator.readthedocs.io/en/stable/examples/index.html. Add the nest file path in the references section of these examples and it will work.
+If you want to run more NEST examples in PYNQ, you can download them in https://nest-simulator.readthedocs.io/en/stable/examples/index.html. Add the NEST file path in the references section of these examples and it will work.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/18.png)
 
