@@ -1,0 +1,9 @@
+*.swp
+*.swo
+*.tar.gz
+101_ObjectCategories
+*.log
+*.txt
+*.pyc
+*.sh
+__pycache__
