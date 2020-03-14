@@ -27,16 +27,22 @@ The following picture appears to prove that the installation was successful.
 ## Install dependent libraries
 ### Create a new file
 * Enter jupyter notebook，create a new file
+
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/2.png)
 ### Install dependent libraries
     !pip3 install PyNN
+
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/3.png)
+
 Install cython higher than 0.28.5
-###
+
     !pip3 install cython==0.28.5
     !pip3 install scikit-learn
+    
 These will take a long time.
 ### Download file
     !git clone https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster.git
+    
 Enter snn_object_recognition folder.
+
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/7.png)
