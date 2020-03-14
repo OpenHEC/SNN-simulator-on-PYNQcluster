@@ -47,19 +47,25 @@ Enter NEST_PYNQ_Jupyter -> snn_object_recognition.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/7.png)
 
-* In these folder , you can use others images , make sure the image size is constant.
+In these folder , you can use others images , make sure the image size is constant.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/8.png)
 
-* The labels of the images should also be changed.
+The labels of the images should also be changed.
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/9.png)
 
 ## Picture classification
-* Open dump-c1-spikes_train.ipynb, copy the nest installation path </nest/install/path/> to here. You can change these parameters, make sure path is right，and then run. This will take a lot of time.
+Open dump-c1-spikes_train.ipynb, copy the nest installation path </nest/install/path/> to here. 
 
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/10.png)
 
-ll_** error occurs and changes ll_** to hl_** in pynn's error file path. PyNN may have some errors, which can be found by going to the NEST website and retrieving the error information.
+You can change these parameters, make sure path is right，and then run. This will take a lot of time.
 
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/11.png)
 
+* ll_** error occurs and changes ll_** to hl_** in pynn's error file path. PyNN may have some errors, which can be found by going to the NEST website and retrieving the error information.
+
+Run the dump-c1-spikes_validation.ipynb using a similar operation. Finally, the following two files are generated
+
+![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/12.png)
