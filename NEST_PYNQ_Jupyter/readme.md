@@ -24,7 +24,7 @@ In this project, we use nest-simulator-2.14, you can download it at https://gith
 The following picture appears to prove that the installation was successful.
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/1.png)
 * References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
-## Install dependent libraries
+## File introduction
 ### Create a new file
 Enter jupyter notebook，create a new file
 
@@ -32,7 +32,7 @@ Enter jupyter notebook，create a new file
 ### Install dependent libraries
     !pip3 install PyNN
 
-![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/3.png)
+    ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/3.png)
 
 Install cython higher than 0.28.5
 
