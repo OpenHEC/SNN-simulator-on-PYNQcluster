@@ -1,4 +1,5 @@
 ## Run the Nest on Jupyter notebook on PYNQ
+If you want to run nest on jupyter notebook of PYNQ, you can refer to the following steps to execute.
 ### Install NEST requires
     sudo apt-get install -y cython libgsl-dev libltdl-dev libncurses-dev libreadline-dev python3-all-dev python3-numpy python3-scipy python3-matplotlib python3-nose openmpi-bin libopenmpi-dev
 In this project, we use nest-simulator-2.14, you can download it at https://github.com/nest/nest-simulator/releases/tag/v2.14.0
@@ -21,3 +22,4 @@ Once in Python you can type
     import nest
 The following picture appears to prove that the installation was successful.
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/image/1.png)
+References: https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
