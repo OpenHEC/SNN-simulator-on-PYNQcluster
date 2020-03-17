@@ -1,6 +1,6 @@
 # Run the NEST on Jupyter Notebook in PYNQ
 If you want to run NEST on Jupyter Notebook of PYNQ, you can refer to the following steps to execute. An example of image classification is run below.
-* In this project, we use PYNQ-Z2 v2.5 PYNQ image. 
+* In this project, we use PYNQ-Z2 v2.5 PYNQ image. (If you use the old version of the image file, it should also work.)
 ## Install NEST
 ### Install NEST requires
     sudo apt-get install -y cython libgsl-dev libltdl-dev libncurses-dev libreadline-dev python3-all-dev python3-numpy python3-scipy python3-matplotlib python3-nose openmpi-bin libopenmpi-dev
