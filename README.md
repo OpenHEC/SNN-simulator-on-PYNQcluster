@@ -17,6 +17,7 @@ On this basis, we designed FPGA neuron acceleration module and FPGA STDP synapse
  * Petalinux  
  https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/tree/master/petalinux
  * Install NEST-14.0-FPGA  
+   * In this project, we use PYNQ-Z2 v2.5 PYNQ image. (If you use the old version of the image file, it should also work.)
    * Installing PyNN requires: 
    ```
     sudo apt-get install -y \  
