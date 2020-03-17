@@ -5,7 +5,7 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 * Spiking neuron network simulator NEST  
 * SNN image classification  
 * Neuron computing and STDP accelerator base on FPGA  
-* MPI communication between PYNQ  
+* MPI communication between PYNQ
 ![image](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png)
 ## Quick Start
  * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click [here](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/readme.md).
