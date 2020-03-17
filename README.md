@@ -13,7 +13,8 @@ On this basis, we designed FPGA neuron acceleration module and FPGA STDP synapse
 <div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png" width = "500" height = "300"/></div>
 
 The general platform of this project integrates 16 PYNQ boards, and the board-level connection follows the TCP/IP protocol. The PYNQ-Z2 development board is based on the ZYNQ XC7Z020 FPGA and is equipped with Ethernet, HDMI input/output, MIC input, audio output, Arduino interface, Raspberry Pi interface, 2 Pmods, user LEDs, buttons and switches.  
-<div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/1.jpg" width = "500" height = "300"/></div>
+<div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/1.jpg" width = "500" height = "300"/></div>  
+The first advantage of using the cluster form is that it can achieve performance scalability. In addition, using a multi-node form of clusters in memory access will optimize memory access time. The cache size of a single board is limited. When the hit rate is similar, The form of cluster can also increase the calculation speed.
 
 ## Quick Start
  * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click [here](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/readme.md).
