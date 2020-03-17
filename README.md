@@ -11,6 +11,7 @@ This system consists of PYNN like brain framework, NEST simulator, PYNQ framewor
 
 On this basis, we designed FPGA neuron acceleration module and FPGA STDP synapse acceleration module, and provided acceleration modules for different computation-intensive points according to the network topology and computing requirements.  
 ![image](<div align=center>https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png)
+
 ## Quick Start
  * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click [here](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/readme.md).
  * Petalinux  
