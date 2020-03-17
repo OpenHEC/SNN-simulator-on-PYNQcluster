@@ -10,8 +10,10 @@ A Spiking neural network simulator NEST base on FPGA‘s cluster（LIF NEURON）
 This system consists of PYNN like brain framework, NEST simulator, PYNQ framework, FPGA neurons and STDP hardware modules. As shown in picture, the top-level application design language is Python. With the assistance of the PYNN architecture, the NEST simulator is called. Various commands are interpreted by the python interpreter and the SLI interpreter, and then enter the NEST kernel. The underlying network creation according to various commands includes neuron creation, synapse connection creation, simulation time setting, etc.
 
 On this basis, we designed FPGA neuron acceleration module and FPGA STDP synapse acceleration module, and provided acceleration modules for different computation-intensive points according to the network topology and computing requirements.  
-<div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png"/></div>  
+<div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/overview.png"/></div>
 
+The general platform of this project integrates 16 PYNQ boards, and the board-level connection follows the TCP/IP protocol. The PYNQ-Z2 development board is based on the ZYNQ XC7Z020 FPGA and is equipped with Ethernet, HDMI input/output, MIC input, audio output, Arduino interface, Raspberry Pi interface, 2 Pmods, user LEDs, buttons and switches.  
+<div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/1.jpg"/></div>
 ## Quick Start
  * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click [here](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/readme.md).
  * Petalinux  
