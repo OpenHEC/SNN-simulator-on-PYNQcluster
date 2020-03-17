@@ -14,6 +14,7 @@ On this basis, we designed FPGA neuron acceleration module and FPGA STDP synapse
 
 The general platform of this project integrates 16 PYNQ boards, and the board-level connection follows the TCP/IP protocol. The PYNQ-Z2 development board is based on the ZYNQ XC7Z020 FPGA and is equipped with Ethernet, HDMI input/output, MIC input, audio output, Arduino interface, Raspberry Pi interface, 2 Pmods, user LEDs, buttons and switches.  
 <div align=center><img src="https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/1.jpg"/></div>
+
 ## Quick Start
  * If you would like to use the Jupyter notebook on PYNQ to perform the simulation on NEST, please click [here](https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster/blob/master/NEST_PYNQ_Jupyter/readme.md).
  * Petalinux  
